@@ -1,0 +1,4894 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+              American National Election Study 1948-2016 - Cumulative
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page i
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      VCF0004            STUDY VARIABLE: Year of Study                       1
+      VCF0009X           STUDY VARIABLE: Weight: For 1970 type 0 - 2012,2    1
+      VCF0009Y           STUDY VARIABLE: Weight: For 1970 type 0 - 2012,2    2
+      VCF0009Z           STUDY VARIABLE: Weight: For 1970 type 0 - 2012,2    3
+      VCF0010X           STUDY VARIABLE: Weight: For 1970 type 1 - 2012,2    4
+      VCF0010Y           STUDY VARIABLE: Weight: For 1970 type 1 - 2012,2    5
+      VCF0010Z           STUDY VARIABLE: Weight: For 1970 type 1 - 2012,2    6
+      VCF0011X           STUDY VARIABLE: Weight: For 1970 type 2 - 2012,2    7
+      VCF0011Y           STUDY VARIABLE: Weight: For 1970 type 2 - 2012,2    8
+      VCF0011Z           STUDY VARIABLE: Weight: For 1970 type 2 - 2012,2    9
+      VCF0105B           DEMOGRAPHICS: Race-ethnicity summary, 4 categori   10
+      VCF0110            DEMOGRAPHICS: Respondent - Education 4-category    13
+      VCF0113            SAMPLE DESCRIPTION: Political South/Nonsouth       16
+      VCF0114            DEMOGRAPHICS: Respondent Family - Income Group     18
+      VCF0127            DEMOGRAPHICS: Household - Union Membership         22
+      VCF0128            DEMOGRAPHICS: Respondent - Religion Major Group    24
+      VCF0128A           DEMOGRAPHICS: Respondent - Religion 7-category 1   27
+      VCF0128B           DEMOGRAPHICS: Respondent - Religion 8-category 1   29
+      VCF0129            DEMOGRAPHICS: Respondent - Religion Full Code 19   32
+      VCF0130            DEMOGRAPHICS: Respondent - Church Attendance 197   34
+      VCF0130A           DEMOGRAPHICS: Respondent - Church Attendance 199   36
+      VCF0131            DEMOGRAPHICS: Respondent - Church Attendance 195   38
+      VCF0201            GROUP THERMOMETER: Democrats                       40
+      VCF0202            GROUP THERMOMETER: Republicans                     41
+      VCF0203            GROUP THERMOMETER: Protestants                     42
+      VCF0204            GROUP THERMOMETER: Catholics                       43
+      VCF0205            GROUP THERMOMETER: Jews                            44
+      VCF0206            GROUP THERMOMETER: Blacks                          45
+      VCF0207            GROUP THERMOMETER: Whites                          47
+      VCF0208            GROUP THERMOMETER: Southerners                     49
+      VCF0209            GROUP THERMOMETER: Big Business                    50
+      VCF0210            GROUP THERMOMETER: Labor Unions                    52
+      VCF0211            GROUP THERMOMETER: Liberals                        54
+      VCF0212            GROUP THERMOMETER: Conservatives                   56
+      VCF0213            GROUP THERMOMETER: Military                        58
+      VCF0214            GROUP THERMOMETER: Policemen/Police                59
+      VCF0219            GROUP THERMOMETER: Middle Class People             60
+      VCF0220            GROUP THERMOMETER: People on Welfare               61
+      VCF0223            GROUP THERMOMETER: Poor People                     63
+      VCF0232            GROUP THERMOMETER: Gays and Lesbians               65
+      VCF0234            GROUP THERMOMETER: Christian Fundamentalists       66
+      VCF9003            GROUP THERMOMETER: Evangelical Groups              67
+      VCF0218            GROUP THERMOMETER: Democratic Party                68
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page ii
+
+
+      item                                                                page
+
+      VCF0224            GROUP THERMOMETER: Republican Party                70
+      VCF0303            PARTISANSHIP: Party Identification of Respondent   72
+      VCF0803            IDEOLOGY: Liberal-Conservative Scale               74
+      VCF0806            ISSUES: Government Health Insurance Scale          77
+      VCF0809            ISSUES: Guaranteed Jobs and Income Scale           79
+      VCF0830            ISSUES: Aid to Blacks Scale                        81
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page 1
+
+
+      VCF0004            STUDY VARIABLE: Year of Study
+
+           Year of study (4-digit)
+
+           Data type: numeric
+           Record/columns: 1/1-4
+
+      ________________________________________________________________________
+
+      VCF0009X           STUDY VARIABLE: Weight: For 1970 type 0 - 2012,2016 FTF sample
+
+           CDF Weight: 1970 type 0 - 2012 FTF sample
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See Appendix documentation: WEIGHTS IN THE CUMULATIVE DATA FILE
+
+           SOURCE VARS:
+           ------------
+           1958: V580003
+           1960: V600003
+           1974: V742003
+           1976: V763003
+           1992: V927000
+           1994: V940007a
+           1996: V960005a
+           1998: V980002
+           2000: V000002
+           2002: V020101
+           2004: V040101
+           2008: V080101
+           2012: weight_ftf
+           2016: V160101f
+
+           Data type: numeric
+           Decimals: 4
+           Record/columns: 1/6-11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page 2
+
+
+      VCF0009Y           STUDY VARIABLE: Weight: For 1970 type 0 - 2012,2016 Web sample
+
+           CDF Weight: 1970 type 0 - 2012 Web sample
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See Appendix documentation: WEIGHTS IN THE CUMULATIVE DATA FILE
+
+           SOURCE VARS:
+           ------------
+           1958: V580003
+           1960: V600003
+           1974: V742003
+           1976: V763003
+           1992: V927000
+           1994: V940007a
+           1996: V960005a
+           1998: V980002
+           2000: V000002
+           2002: V020101
+           2004: V040101
+           2008: V080101
+           2012: weight_web
+           2016: V160101w
+
+           Data type: numeric
+           Decimals: 4
+           Record/columns: 1/13-18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page 3
+
+
+      VCF0009Z           STUDY VARIABLE: Weight: For 1970 type 0 - 2012,2016 full sample
+
+           CDF Weight: 1970 type 0 - 2012 full sample
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See Appendix documentation: WEIGHTS IN THE CUMULATIVE DATA FILE
+
+           SOURCE VARS:
+           ------------
+           1958: V580003
+           1960: V600003
+           1974: V742003
+           1976: V763003
+           1992: V927000
+           1994: V940007a
+           1996: V960005a
+           1998: V980002
+           2000: V000002
+           2002: V020101
+           2004: V040101
+           2008: V080101
+           2012: weight_full
+           2016: V160101
+
+           Data type: numeric
+           Decimals: 4
+           Record/columns: 1/20-25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page 4
+
+
+      VCF0010X           STUDY VARIABLE: Weight: For 1970 type 1 - 2012,2016 FTF sample
+
+           CDF Weight: 1970 type 1 - 2012 FTF sample
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See Appendix documentation: WEIGHTS IN THE CUMULATIVE DATA FILE
+
+           SOURCE VARS:
+           ------------
+           1958: V580003
+           1960: V600003
+           1970: V700012
+           1974: V742003
+           1976: V763003
+           1992: V927000
+           1994: V940007a
+           1996: V960005a
+           1998: V980002
+           2000: V000002
+           2002: V020101
+           2004: V040101
+           2008: V080101
+           2012: weight_ftf
+           2016: V160101f
+
+           Data type: numeric
+           Decimals: 4
+           Record/columns: 1/27-32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page 5
+
+
+      VCF0010Y           STUDY VARIABLE: Weight: For 1970 type 1 - 2012,2016 Web sample
+
+           CDF Weight: 1970 type 1 - 2012 Web sample
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See Appendix documentation: WEIGHTS IN THE CUMULATIVE DATA FILE
+
+           SOURCE VARS:
+           ------------
+           1958: V580003
+           1960: V600003
+           1970: V700012
+           1974: V742003
+           1976: V763003
+           1992: V927000
+           1994: V940007a
+           1996: V960005a
+           1998: V980002
+           2000: V000002
+           2002: V020101
+           2004: V040101
+           2008: V080101
+           2012: weight_web
+           2016: V160101w
+
+           Data type: numeric
+           Decimals: 4
+           Record/columns: 1/34-39
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page 6
+
+
+      VCF0010Z           STUDY VARIABLE: Weight: For 1970 type 1 - 2012,2016 full sample
+
+           CDF Weight: 1970 type 1 - 2012 full sample
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See Appendix documentation: WEIGHTS IN THE CUMULATIVE DATA FILE
+
+           SOURCE VARS:
+           ------------
+           1958: V580003
+           1960: V600003
+           1970: V700012
+           1974: V742003
+           1976: V763003
+           1992: V927000
+           1994: V940007a
+           1996: V960005a
+           1998: V980002
+           2000: V000002
+           2002: V020101
+           2004: V040101
+           2008: V080101
+           2012: weight_full
+           2016: V160101
+
+           Data type: numeric
+           Decimals: 4
+           Record/columns: 1/41-46
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page 7
+
+
+      VCF0011X           STUDY VARIABLE: Weight: For 1970 type 2 - 2012,2016 FTF sample
+
+           CDF Weight: 1970 type 2 - 2012 FTF sample
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See Appendix documentation: WEIGHTS IN THE CUMULATIVE DATA FILE
+
+           SOURCE VARS:
+           ------------
+           1958: V580003
+           1960: V600003
+           1970: V700013
+           1974: V742003
+           1976: V763003
+           1992: V927000
+           1994: V940007a
+           1996: V960005a
+           1998: V980002
+           2000: V000002
+           2002: V020101
+           2004: V040101
+           2008: V080101
+           2012: weight_ftf
+           2016: V160101f
+
+           Data type: numeric
+           Decimals: 4
+           Record/columns: 1/48-53
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page 8
+
+
+      VCF0011Y           STUDY VARIABLE: Weight: For 1970 type 2 - 2012,2016 Web sample
+
+           CDF Weight: 1970 type 2 - 2012 Web sample
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See Appendix documentation: WEIGHTS IN THE CUMULATIVE DATA FILE
+
+           SOURCE VARS:
+           ------------
+           1958: V580003
+           1960: V600003
+           1970: V700013
+           1974: V742003
+           1976: V763003
+           1992: V927000
+           1994: V940007a
+           1996: V960005a
+           1998: V980002
+           2000: V000002
+           2002: V020101
+           2004: V040101
+           2008: V080101
+           2012: weight_web
+           2016: V160101w
+
+           Data type: numeric
+           Decimals: 4
+           Record/columns: 1/55-60
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page 9
+
+
+      VCF0011Z           STUDY VARIABLE: Weight: For 1970 type 2 - 2012,2016 full sample
+
+           CDF Weight: 1970 type 2 - 2012 full sample
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See Appendix documentation: WEIGHTS IN THE CUMULATIVE DATA FILE
+
+           SOURCE VARS:
+           ------------
+           1958: V580003
+           1960: V600003
+           1970: V700013
+           1974: V742003
+           1976: V763003
+           1992: V927000
+           1994: V940007a
+           1996: V960005a
+           1998: V980002
+           2000: V000002
+           2002: V020101
+           2004: V040101
+           2008: V080101
+           2012: weight_full
+           2016: V160101
+
+           Data type: numeric
+           Decimals: 4
+           Record/columns: 1/62-67
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 10
+
+
+      VCF0105B           DEMOGRAPHICS: Race-ethnicity summary, 4 categories
+
+           1948,1952,1956-1970: Interviewer observation of Race.
+            1972-1976: Interviewer observation of Race.
+                       In addition to being American, what do you
+                       consider your main ethnic group or nationality
+                       group?
+            1978: Interviewer observation of Race.
+                  Interviewer observation: R of Hispanic origin.
+                  In addition to being American, is there another nationality or
+                  ethnic group that you feel you belong to?
+                  (IF YES:) What group is that?
+            1980,1982,1984,1986: Interviewer observation of Race.
+                                 Interviewer observation: R of Hispanic origin.
+                                 In addition to being American, what do you
+                                 consider your main ethnic group or nationality
+                                 group?
+            1988-1998: Interviewer observation of Race.
+                       In addition to being American, what do you consider your
+                       main ethnic group or nationality group?
+                       [IF HISPANIC ETHNIC GROUP NOT MENTIONED] Are you of Spanish
+                       or Hispanic origin or descent?
+            2000-2008: What racial or ethnic group or groups best describes you?
+                       [MULTIPLE MENTIONS CODED BY IWR]
+                       In addition to being American, what do you consider your main
+                       ethnic group or nationality group?
+                       [IF HISPANIC ETHNIC GROUP NOT MENTIONED] Are you of Spanish
+                       or Hispanic origin or descent?
+            2012,2016: Are you Spanish, Hispanic, or Latino?
+                       FTF ONLY: I am going to read you a list of five race categories.
+                       Please choose one or more races that you consider
+                       yourself to be: [MULTIPLE MENTIONS]: White / Black or
+                       African-American / American Indian or Alaska Native /
+                       Asian / Native Hawaiian or other Pacific Islander /
+                       Other.
+
+           VALID CODES:
+           ------------
+           1. White non-Hispanic
+           2. Black non-Hispanic
+           3. Hispanic
+           4. Other or multiple races, non-Hispanic
+
+           MISSING CODES:
+           --------------
+           9. Missing, DK/REF/NA
+           0. Missing, pre-1966 data
+           INAP. question not used
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 11
+
+
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           Collapsed from VCF0105a: 1=1,2=2,3=4,4=4,5=3,6=4,7=0,9=9.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1948: V480046
+           1952: V520129
+           1956: V560172
+           1958: V580171
+           1960: V600119
+           1962: V620097
+           1964: V640183
+           1966: V660237
+           1968: V680264
+           1970: V700391 (Type 0)
+           1972: V720406,V720425
+           1974: V742528,V742554
+           1976: V763489,V763513
+           1978: V780608,V780609,V780631,V780632
+           1980: V800695,V800696,V800721,V800722
+           1982: V820736,V820737,V820763,V820764
+           1984: V840689,V840690,V840708,V840709
+           1986: V860739,V860740,V860756,V860757
+           1988: V880412,V880534,V880535,V880540
+           1990: V900549,V900670,V900671,V900676
+           1992: V923011,V924116,V924117,V924122,V924202
+           1994: V941411,V941412,V941413,V941418,V941435
+           1996: V960067,V960703,V960704,V960708
+           1998: V980654,V980655,V980659,V980673
+           2000: V001006a,V001006b,V001006c,V001008,V001009,V001012
+           2002: V021001,V023150,V023151
+           2004: V043299,V043301a,V043301b,V043301c,V043305
+           2008: V083251a,V083251b,V083251c,V083251d,V083251e,V083252a,V083252b,V083252c,V083252d,V083256
+           2012: dem_racecps_asian,dem_racecps_black,dem_racecps_native,dem_racecps_othrace,dem_racecps_pacif,dem_racecps_racedkrf,dem_racecps_white
+           2016: V161310x
+
+           VALUE  LABEL
+               0  Missing, pre-1966 data
+               1  White non-Hispanic
+               2  Black non-Hispanic
+               3  Hispanic
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 12
+
+
+               4  Other or multiple races, non-Hispanic
+               9  Missing, DK/REF/NA
+
+           Data type: numeric
+           Missing-data codes: 0,9-*
+           Record/column: 1/69
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 13
+
+
+      VCF0110            DEMOGRAPHICS: Respondent - Education 4-category
+
+           1952-1972:  How many grades of school did you finish?
+            1974,1976:  What is highest grade of school or year of college
+            you have completed? Did you get a high school diploma or pass a high
+            school equivalency test? Do you have a college degree? (IF YES:) What
+            degree is that?
+            1978-1984: What is highest grade of school or year of college
+            you have completed? Did you get a high school diploma or pass a high
+            school equivalency test? Do you have a college degree? (IF YES:) What
+            is the highest degree that you have earned?
+            1986-2008: What is highest grade of school or year of college
+            you have completed? Did you get a high school diploma or pass a high
+            school equivalency test? What is the highest degree that you have
+            earned?
+            2012: What is the highest level of school you have completed or the
+            highest degree you have received?
+
+           VALID CODES:
+           ------------
+           1. Grade school or less (0-8 grades)
+           2. High school (12 grades or fewer, incl. non-college training if applicable)
+           3. Some college (13 grades or more but no degree;
+                1948 ONLY: college, no identification of degree status)
+           4. College or advanced degree (no cases 1948)
+
+           MISSING CODES:
+           --------------
+           0. DK; NA; no Pre IW; short-form 'new' Cross Section
+               (1992)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See also VCF0140.
+           Code 4 includes 1 case in 1968, 2 cases in 1976 and 4 cases in 1974
+           which were designated by respondents as 'honorary degrees.'
+           Uncodeable Other mentions are included I missing data.
+           1948 NOTE 1:
+           Question wording is undocumented.
+           1948 NOTE 2:
+           No distinction was made between Rs holding college degrees and those
+           who attended college but did not receive a degree. All cases coded
+           'college' in 1948 are coded 3 -- there are no cases coded 4 for 1948.
+           1960 NOTE:
+           Personal data forms were completed for no-pre cases:  data from these
+           forms were incorporated.
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 14
+
+
+           1992 NOTE:
+           This was not part of the 'short-form' questionnaire; for short-form
+           panel cases, however, 1990 study data were incorporated.
+           1994 NOTE:
+           For panel cases, 1992 data were incorporated.
+           2002 NOTE:
+           For panel cases, 2000 data were incorporated.
+           2004 NOTE:
+           1 respondent who did not indicate highest grade, but who indicated
+           no high school diploma, has been coded 2.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1948: V480048
+           1952: V520131
+           1956: V560181
+           1958: V580180
+           1960: V600128
+           1962: V620078
+           1964: V640196
+           1966: V660197
+           1968: V680156
+           1970: V700269(type 0)
+           1972: V720300
+           1974: V742418
+           1976: V763389
+           1978: V780513
+           1980: V800436
+           1982: V820542
+           1984: V840438
+           1986: V860602
+           1988: V880422
+           1990: V900557
+           1992: V923905,V923908
+           1994: V941206,V941209
+           1996: V960607,V960610
+           1998: V980577
+           2000: V000913
+           2002: V023131
+           2004: V043254
+           2008: V083218x
+           2012: dem_edu
+           2016: V161270
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 15
+
+
+           VALUE  LABEL
+               0  DK; NA; no Pre IW; short-form 'new' Cross Section
+               1  Grade school or less (0-8 grades)
+               2  High school (12 grades or fewer, incl. non-college
+               3  Some college (13 grades or more but no degree;
+               4  College or advanced degree (no cases 1948)
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/71
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 16
+
+
+      VCF0113            SAMPLE DESCRIPTION: Political South/Nonsouth
+
+           Region - political south
+
+           VALID CODES:
+           ------------
+           1. South
+           2. Nonsouth
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           This var identifies the 11 secession states: Alabama, Arkansas,
+           Florida, Georgia, Louisiana, Mississippi, North Carolina, South
+           Carolina, Tennessee, Texas, and Virginia.  These states cannot be
+           identified for 1954.
+           This identification of 'south' does NOT conform to the definition
+           used in VCF0112 (Census-defined region).
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1952: V520005
+           1956: V560007
+           1958: V580009
+           1960: V600010
+           1962: V620003
+           1964: V640012
+           1966: V660010
+           1968: V680013
+           1970: V700019(type 0)
+           1972: V720005
+           1974: V742006
+           1976: V763006
+           1978: V780014
+           1980: V800023
+           1982: V820014
+           1984: V840009
+           1986: V860025
+           1988: V880008
+           1990: V900008
+           1992: V923014
+           1994: V940011
+           1996: V960108
+           1998: V980086
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 17
+
+
+           2000: V000092
+           2002: V021201
+           2004: V041204a
+           2008: V081201b
+           2012: sample_state
+           2016: V163001b
+
+           VALUE  LABEL
+               1  South
+               2  Nonsouth
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/73
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 18
+
+
+      VCF0114            DEMOGRAPHICS: Respondent Family - Income Group
+
+           1952,1956-1960:
+            About what do you think your total income will be this year for yourself
+            and your immediate family?
+            1962:
+            Would you tell me how much income you and your family will be making
+            during this calendar year, 1962.  I mean, before taxes.
+            1964,1968:
+            About what do you think your total income will be this year for yourself
+            and your immediate family.  Just give me the number/ letter) of the
+            right income category.
+            1966,1970:
+            Many people don't know their exact (1966/1970) income yet; but would you
+            tell me as best you can what you expect your (1966/1970) income to be--
+            before taxes?  You may just tell me the letter of the group on this card
+            into which your family income will probably fall.
+            1972-1990, 1992 LONG-FORM,1994-2008 EXC. 2000 TELEPHONE:
+            Please look at this card/page (2000 FTF: the booklet) and tell me the
+            letter of the income group that includes the income of all members of
+            your family living here in [previous year] before taxes.  This figure
+            should include salaries, wages, pensions, dividends, interest, and all
+            other income.  (IF UNCERTAIN:)  What would be your best guess?
+            1992 SHORT FORM:
+            Can you give us an estimate of your total family income in 1991 before
+            taxes?  This figure should include salaries, wages, pensions, dividends,
+            interest and all other income for every member of your family living in
+            your house in 1991.  First could you tell me if that was above or below
+            $24,999? (IF UNCERTAIN: what would be your best guess?) (IF ABOVE/BELOW
+            $24,999:) I will read you some income categories, could you please stop
+            me when I reach the category that corresponds to your family situation?
+            2000 TELEPHONE:
+            I am going to read you a list of income categories. Please tell me which
+            category best describes the.total income of all members of your family
+            living in your house in 1999 before taxes.  This figure should include
+            salaries, wages, pensions, dividends, interest, and all other income.
+            Please stop me when I get to your family's income.
+            2012:
+            Information about income is very important to understand how people are
+            doing financially these days. Your answers are confidential. Would you
+            please give your best guess?
+            The next question is about [the total income of all the members of your
+            family living here / your total income] in 2011, before taxes.
+            This figure should include income from all sources, including salaries,
+            wages, pensions, Social Security, dividends, interest, and all other
+            income. What was [the total income in 2011 of all your family members
+            living here / your total income in 2011]?
+            (IF DK/RF:) Was it $40,000 or more, or less than that?
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 19
+
+
+            (IF LESS THAN 40,000:) Was it $20,000 or more, or less than that?
+            (IF LESS THAN 40,000 AND LESS THAN 20,000:) Please mark the answer that
+            includes the income of all members of your family living here in 2011
+            before taxes.
+            (IF LESS THAN 40,000 BUT MORE THAN 20,000:) Please mark the answer
+            that includes the income of all members of your family living here
+            in 2011 before taxes.
+            (IF MORE THAN 40,000:) Was it $70,000 or more, or less than that?
+            (IF MORE THAN 40,000 BUT LESS THAN 70,000:) Please mark the answer
+            that includes the income of all members  of your family living here
+            in 2011 before taxes.
+            (IF MORE THAN 40,000 AND MORE THAN 70,000:) Was it $100,000 or more,
+            or less than that?
+            (IF MORE THAN 40,000, MORE THAN 70,000, BUT LESS THAN 100,000:)
+            Please mark the answer that includes the income of all members
+            of your family living here in 2011 before taxes.
+            (IF MORE THAN 40,000, MORE THAN 70,000 AND MORE THAN 100,000:)
+            Please mark the answer that includes the income of all members
+            of your family living here in 2011 before taxes.
+
+           VALID CODES:
+           ------------
+           1. 0 to 16 percentile
+           2. 17 to 33 percentile
+           3. 34 to 67 percentile
+           4. 68 to 95 percentile
+           5. 96 to 100 percentile
+
+           MISSING CODES:
+           --------------
+           0. DK; NA; refused to answer; no Pre IW
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See Appendix 'INCOME' for income ranges corresponding to these
+           percentiles.
+           Study coding of income was approximated as closely as possible to fit
+           within this version.  Prior to 1972, this was an estimate of CURRENT
+           year's income; since 1972, PREVIOUS year's income.  NOTE that in all
+           years beginning 1976 this question was not actually asked if R was the
+           only household member age 14 or over: in such cases, data from the
+           question asking R's own income was duplicated. (Prior to 1976 R's
+           own income was not determined.)
+           Beginning in 1964, R was shown a respondent card or booklet.
+           1948 NOTE:
+           Question wording was undocumented.
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 20
+
+
+           1960 NOTE:
+           Personal data forms were completed for no-pre cases: data from
+           these forms were incorporated.
+           1996 NOTE:
+           For 14 cases, interviewers entered responses where individual income
+           was higher than family income.  In some of these cases, the responses
+           for family income and R income may have been provided.entered in
+           incorrect order.
+           1998 NOTE:
+           Some interviewers coded lowest income category when the respondent
+           stated that he or she did not know what the household income was.
+           Study staff has reviewed all interviewer comment material available to
+           identify cases coded in the lowest category where comment NOTEs clearly
+           indicate Don't Know; such cases have been recoded to DK.  However, it
+           is not known whether there are additional DK cases (without recorded
+           comments) for which lowest category had been incorrectly coded.
+           2002 NOTE:
+           Income categories were too broad for approximation here.
+           2012 NOTE:
+           Income range was included in the public release. Percentile group
+           represents full (combined) 2012 sample, including both in-person
+           (FTF) and Web respondents.
+           2016 NOTE:
+           Same as 2012.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1948: V480049
+           1952: V520160
+           1956: V560190
+           1958: V580203
+           1960: V600189
+           1962: V620075
+           1964: V640269
+           1966: V660235
+           1968: V680261
+           1970: V700388(type 0)
+           1972: V720420
+           1974: V742549
+           1976: V763507
+           1978: V780598
+           1980: V800686
+           1982: V820725
+           1984: V840680
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 21
+
+
+           1986: V860733
+           1988: V880520
+           1990: V900663
+           1992: V924104
+           1994: V941404
+           1996: V960701
+           1998: V980652
+           2000: V000994
+           2004: V043293x
+           2008: V083248x
+           2012: incgroup_prepost_x
+           2016: V161361x,V162309x
+
+           VALUE  LABEL
+               0  DK; NA; refused to answer; no Pre IW
+               1  0 to 16 percentile
+               2  17 to 33 percentile
+               3  34 to 67 percentile
+               4  68 to 95 percentile
+               5  96 to 100 percentile
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/75
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 22
+
+
+      VCF0127            DEMOGRAPHICS: Household - Union Membership
+
+           1948:
+           Does [head] belong to a labor union?
+           1952,1954:
+           Do either you or the head of your household belong to a labor union?
+           Who is it that belongs?
+           1956 AND LATER:
+           (1956-1984,2002: Does anyone) (1986-LATER EXC.2002: Do you or [1988:
+           does] anyone else) in this household belong to a labor union?
+           (IF YES:)  Who is it that belongs?
+
+           VALID CODES:
+           ------------
+           1. Yes, someone (1948: head) in household belongs to a labor union
+           2. No, no one in household belongs to a labor union
+
+           MISSING CODES:
+           --------------
+           0. DK; NA; no Pre IW; short-form 'new' Cross Section (1992)
+           INAP. question not used
+
+           NOTES:
+           ------
+           1948 NOTE:
+           'Yes' acknowledged only head's union affiliation.
+           1952 NOTE:
+           'Yes' acknowledged only R's or the head of household's union
+           affiliation.
+           1954 NOTE:
+           same as 1952
+           1992 NOTE:
+           This was not part of the 'short-form' questionnaire; for short-form
+           panel cases, however, 1990 study data were incorporated.
+           2002 DATA:
+           Asked only of 'fresh' cross-section cases; for panel cases 2000 data
+           have been included.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1948: V480030
+           1952: V520139
+           1956: V560130
+           1958: V580205
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 23
+
+
+           1960: V600150
+           1964: V640228
+           1966: V660215
+           1968: V680201
+           1970: V700347(type 0)
+           1972: V720378
+           1974: V742515
+           1976: V763476
+           1978: V780595
+           1980: V800683
+           1982: V820722
+           1984: V840676
+           1986: V860729
+           1988: V880517
+           1990: V900660
+           1992: V924101
+           1994: V941401
+           1996: V960698
+           1998: V980649
+           2000: V000990
+           2002: V023133,V023133a
+           2004: V043290
+           2008: V083246
+           2012: dem_unionhh
+           2016: V161302
+
+           VALUE  LABEL
+               0  DK; NA; no Pre IW; short-form 'new' Cross
+               1  Yes, someone (1948: head) in household belongs to a
+               2  No, no one in household belongs to a labor union
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/77
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 24
+
+
+      VCF0128            DEMOGRAPHICS: Respondent - Religion Major Group
+
+           1952-1964: Is your Church (1962: religious) preference Protestant,
+           Catholic or Jewish?
+           1966-1968:  Are you Protestant, Catholic or Jewish?
+           1970-1988,2002:  Is your religious preference Protestant, Catholic,
+           Jewish, or something else?
+           1990 AND LATER, exc. 2002:  (IF R ATTENDS RELIGIOUS SERVICES:) Do you
+           mostly attend a place of worship that is Protestant, Roman Catholic,
+           Jewish or what?  (IF R DOESN'T ATTEND RELIGIOUS SERVICES:)
+           Regardless of whether you now attend any religious services do you
+           ever think of yourself as part of a particular church or
+           denomination?  (IF YES:)  Do you consider yourself Protestant, Roman
+           Catholic, Jewish or what?
+
+           VALID CODES:
+           ------------
+           1. Protestant
+           2. Catholic [Roman Catholic]
+           3. Jewish
+           4. Other and none (also includes DK preference)
+
+           MISSING CODES:
+           --------------
+           0. NA; no Pre IW; no Post IW; short-form 'new' Cross Section (1992)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See also VCF0129 and VCF0152.
+           In all Pre-Post studies except 1960 this was a Pre var.
+           This has been collapsed from the Study variable summarizing R's
+           religious self-identification, constructed from the complete set of
+           questions asked, usually including questions additional to those
+           documented here (see questions per VCF0128b,VCF0129).
+           1990-later (exc. 2002) NOTE:
+           Questions about religious affiliation were preceded by the filter
+           question, 'Lots of things come up that keep people from attending
+           religious services even if they want to.
+           Thinking about your life these days, do you ever attend religious
+           services, apart from occasional weddings, baptisms or funerals?'
+           (SEE VCF0130), which had some effect on distributions.
+           1948 NOTE:
+           Question wording was undocumented.
+           1992 NOTE:
+           This question was not part of the 'short-form' questionnaire; for short-
+           form panel cases, however, 1990 study data were incorporated.
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 25
+
+
+           1994 NOTE:
+           For panel cases, 1992 data were incorporated.
+           2002 NOTE:
+           For panel cases, 2000 data were incorporated.
+           2012 NOTE:
+           In 2012, cases categorized as 'undifferentiated Christian' in the
+           major-group summary are coded 4.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1948: V480050
+           1952: V520158
+           1956: V560132
+           1958: V580210
+           1960: V600252
+           1962: V620093
+           1964: V640235
+           1966: V660221
+           1968: V680213
+           1970: V700360(type 0)
+           1972: V720422
+           1974: V742551
+           1976: V763510
+           1978: V780605
+           1980: V800693
+           1982: V820734
+           1984: V840687
+           1986: V860737
+           1988: V880527
+           1990: V900525,V900546
+           1992: V923827,V923850
+           1994: V941102,V941105,V941122
+           1996: V960602
+           1998: V980542,V980569
+           2000: V000878,V000904
+           2002: V023138
+           2004: V043247
+           2008: V083185b
+           2012: relig_7cat_x
+           2016: V161264x
+
+           VALUE  LABEL
+               0  DK; NA; refused to answer; no Pre IW; no Post IW;
+               1  Protestant
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 26
+
+
+               2  Catholic (Roman Catholic)
+               3  Jewish
+               4  Other and none (also includes DK preference)
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/79
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 27
+
+
+      VCF0128A           DEMOGRAPHICS: Respondent - Religion 7-category 1960-1988
+
+           1960,1964:
+           Is your Church (1962: religious) preference Protestant, Catholic or
+           Jewish? (IF PROTESTANT:) What church is that, Baptist, Methodist or what?
+           1966-1968:
+           Are you Protestant, Catholic or Jewish? (IF PROTESTANT:) What church is
+           that, Baptist, Methodist or what?
+           1970:
+           Is your religious preference Protestant, Catholic, Jewish, or something
+           else? (IF PROTESTANT:) What church is that, Baptist, Methodist or what?
+           1972-1988:
+           Is your religious preference Protestant, Catholic, Jewish, or something
+           else? (IF PROTESTANT:) What church or denomination  is that?
+           (IF BAPTIST:) Is that Southern Baptist or something else?
+           2002:
+           Is your religious preference PROTESTANT, ROMAN CATHOLIC, JEWISH, or
+           something else?  (IF PROTESTANT OR OTHER:) What church or  denomination
+           is that?
+
+           VALID CODES:
+           ------------
+           1. Mainline Protestant
+           2. Evangelical Protestant
+           3. Catholic [Roman Catholic]
+           4. Jewish
+           5. Non-traditional orthodox
+           6. Non-Christian/Non-Jewish
+           7. Atheist, agnostic, none
+
+           MISSING CODES:
+           --------------
+           9. DK; NA; refused to answer; no Pre IW; no Post IW; short-from 'new' Cross
+              Section (1992)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           Collapsed from VCF0129.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1960: V600252
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 28
+
+
+           1964: V640235
+           1966: V660221
+           1968: V680213
+           1970: V700360(type 0)
+           1972: V720422
+           1974: V742551
+           1976: V763510
+           1978: V780605
+           1980: V800693
+           1982: V820734
+           1984: V840687
+           1986: V860737
+           1988: V880527
+
+           VALUE  LABEL
+               1  Mainline Protestant
+               2  Evangelical Protestant
+               3  Catholic (Roman Catholic)
+               4  Jewish
+               5  Non-traditional orthodox
+               6  Non-Christian/Non-Jewish
+               7  Atheist, agnostic, none
+               9  DK; NA; refused to answer; no Pre IW; no Post IW;
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/81
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 29
+
+
+      VCF0128B           DEMOGRAPHICS: Respondent - Religion 8-category 1990-1996
+
+           (IF R ATTENDS RELIGIOUS SERVICES: )  Do you mostly attend a place of
+           worship that is Protestant, Roman Catholic, Jewish, or what?
+           (IF R DOESN'T ATTEND RELIGIOUS SERVICES:)  Regardless of whether you
+           now attend any religious services do you ever think of yourself as
+           part of a particular church or denomination?  (IF YES:) Do you
+           consider yourself Protestant, Roman Catholic, Jewish, or what?
+           ATTENDS/CONSIDERS SELF PROTESTANT:
+           (IF BAPTIST:) With which Baptist group is your church associated?  Is
+           it the Southern Baptist Convention, the American Baptist Churches in
+           the USA, the American Baptist Association, [1992-LATER: the National
+           Baptist Convention U.S.A.,]an independent Baptist church or some other
+           Baptist group?  (IF INDEPENDENT BAPTIST:) Are you affiliated with any
+           larger Baptist group or is this strictly a local church?
+           (IF LUTHERAN:) Is this church part of the Evangelical Lutheran Church
+           in America, the Missouri Synod, or some other Lutheran group?
+           (IF METHODIST:) Is your church part of the United Methodist Church,
+           African Methodist Episcopal, or some other Methodist group?
+           (IF PRESBYTERIAN:) Is this the Presbyterian Church in the USA or some
+           other Presbyterian group?
+           (IF REFORMED:) Is this the Christian Reformed Church, the Reformed
+           Church in America, or some other Reformed group?
+           (IF BRETHREN:) Is this the Church of the Brethren, the Plymouth
+           Brethren, or what?
+           (IF CHRISTIAN OR JUST CHRISTIAN:) When you say 'Christian' does that
+           mean the denomination called the 'Christian Church (Disciples of
+           Christ),' or some other Christian denomination, or do you mean to say
+           'I am just a Christian?'
+           (IF CHURCH OR CHURCHES OF CHRIST:) Is this the Church of Christ or
+           United Church of Christ?
+           (IF CHURCH OF GOD:) Is this the Church of God of Anderson Indiana, the
+           Church of God of Cleveland Tennessee, the Church of God in Christ, or
+           some other Church of God?
+           (IF HOLINESS OR PENTECOSTAL:) What kind of church is that?  What is it
+           called exactly?  Is that part of a larger church or denomination? What
+           is that church called?
+           ATTENDS/CONSIDERS SELF OTHER:
+           What is it called exactly?  Is that church part of a denomination?  Is
+           that group Christian?
+           ATTENDS/CONSIDERS SELF JEWISH:
+           Do you usually attend a synagogue or temple that is Orthodox,
+           Conservative, Reform or what? / Do you consider yourself Orthodox,
+           Conservative, Reform or what?
+           ALL CHRISTIANS:
+           Which one of these words BEST describes your kind of Christianity:
+           Fundamentalist, Evangelical, Charismatic or Spirit-Filled, Moderate to
+           Liberal? Would you call yourself a born-again Christian, that is, have
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 30
+
+
+           you personally had a conversion experience related to Jesus Christ?
+
+           VALID CODES:
+           ------------
+           0. Mainline Protestant
+           1. Evangelical Protestant
+           2. Black Protestant Church
+           3. Catholic [roman catholic]
+           4. Jewish
+           5. Non-traditional orthodox
+           6. Non-Christian/Non-Jewish
+           7. Atheist, agnostic, none
+
+           MISSING CODES:
+           --------------
+           9. DK; NA; refused to answer; no Pre IW; no Post IW; short-from 'new' Cross
+              Section (1992); 'new' Cross Section (1994)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           Built from VCF0152, respondent race, respondent categorization of type
+           of Christianity, church attendance, and Christian born-again status.
+           1994 NOTE:
+           Applies only to panel cases.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1990: V900525,V900546
+           1992: V923827,V923850
+           1994: V941102,V941105,V941122
+           1996: V960577,V960581,V960602
+
+           VALUE  LABEL
+               0  Mainline Protestant
+               1  Evangelical Protestant
+               2  Black Protestant Church
+               3  Catholic (roman catholic)
+               4  Jewish
+               5  Non-traditional orthodox
+               6  Non-Christian/Non-Jewish
+               7  Atheist, agnostic, none
+               9  DK; NA; refused to answer; no Pre IW; no Post IW;
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 31
+
+
+
+           Data type: numeric
+           Missing-data code: 9
+           Record/column: 1/83
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 32
+
+
+      VCF0129            DEMOGRAPHICS: Respondent - Religion Full Code 1960-1988,2002
+
+           1960,1964:
+           Is your Church (1962: religious) preference Protestant, Catholic or
+           Jewish? (IF PROTESTANT:) What church is that, Baptist, Methodist or what?
+           1966-1968:
+           Are you Protestant, Catholic or Jewish? (IF PROTESTANT:) What church is
+           that, Baptist, Methodist or what?
+           1970:
+           Is your religious preference Protestant, Catholic, Jewish, or something
+           else? (IF PROTESTANT:) What church is that, Baptist, Methodist or what?
+           1972-1988:
+           Is your religious preference Protestant, Catholic, Jewish, or something
+           else? (IF PROTESTANT:) What church or denomination  is that?
+           (IF BAPTIST:) Is that Southern Baptist or something else?
+           2002:
+           Is your religious preference PROTESTANT, ROMAN CATHOLIC, JEWISH, or
+           something else?  (IF PROTESTANT OR OTHER:) What church or  denomination
+           is that?
+
+           VALID CODES:
+           ------------
+           100-800. Religion as coded
+
+           MISSING CODES:
+           --------------
+           996. Refused
+           998. DK; none; no preference
+           999. NA; no Post IW
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See Appendix '2002 RELIGION NOTE'.
+           See also VCF0152.
+           These questions follow up questions in VCF0128.
+           The addition in 1972 of 'Is that Southern Baptist or something else?'
+           significantly changed distributions of Protestant Baptists beginning in
+           that year.
+           Beginning in 1990 (except 2002), the full set of religion codes was
+           expanded considerably, adding codes for different affiliations within
+           the major mainline Protestant denominations and reworking almost
+           entirely the Pentecostal, Holiness, fundamentalist, and evangelical
+           Protestant denominations.  VCF0152 gives the 'new' set of full
+           codes.
+           2002 NOTE:
+           2000 data were included in the 2002 study religion summary variable by
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 33
+
+
+           recoding from the 2000 study variable, which differed somewhat in
+           coding from that used for 2002 fresh cross-section cases.  A
+           description of the recode from the 2002 summary variable is provided in
+           the Appendix.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1960: V600252
+           1964: V640235
+           1966: V660221
+           1968: V680213
+           1970: V700361(type 0)
+           1972: V720422
+           1974: V742551
+           1976: V763510
+           1978: V780605
+           1980: V800693
+           1982: V820734
+           1984: V840687
+           1986: V860737
+           1988: V880527
+           2002: V023138a
+
+           VALUE  LABEL
+             996  Refused
+             998  DK; none; no preference
+             999  NA; no Post IW
+
+           Data type: numeric
+           Missing-data codes: 0,996-*
+           Record/columns: 1/85-87
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 34
+
+
+      VCF0130            DEMOGRAPHICS: Respondent - Church Attendance 1970-
+
+           1970-1988: (IF ANY RELIGIOUS PREFERENCE) Would you say you/do you go
+           to (church/synagogue) every week, almost every week, once or twice a
+           month, a few times a year, or never?
+           1990 AND LATER:  Lots of things come up that keep people from
+           attending religious services even if they want to.  Thinking about
+           your life these days, do you ever attend religious services, apart
+           from occasional weddings, baptisms or funerals?  (IF YES:) Do you go
+           to religious services every week, almost every week, once or twice a
+           month, a few times a year, or never?
+
+           VALID CODES:
+           ------------
+           1. Every week (Except 1970: almost every week)
+           2. Almost every week (no cases in 1970)
+           3. Once or twice a month
+           4. A few times a year
+           5. Never (1990 and later: 'No' in filter)
+           7. No religious preference (1970-1988)
+
+           MISSING CODES:
+           --------------
+           8. DK how often/DK if attend
+           9. NA/RF how often/NA/RF if attend
+           0. Religion (1970-1988); atheists and agnostics are Inap (1972,1986 only);
+              short-form 'new' Cross Section (1992-1996)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           Beginning in 1990, question flow was reversed so that the religious
+           attendance question preceded religious affiliation questions, whereas
+           in previous studies religious attendance followed.  Beginning in 1990,
+           frequency of religious attendance was preceded by a general attendance
+           filter (yes/no); a 'no' response to the filter 1990 and later has been
+           coded 5 here.
+           1970 NOTE:
+           Only codes corresponding to VCF0130 codes 2-5 were used (no code for
+           'every week'). 'Almost every week' from 1970 has been recoded to 1,
+           with no 1970 cases appearing in code 2.
+           1992 NOTE:
+           This question was not part of the 'short-form' questionnaire; for short-
+           form panel cases, however, 1990 study data were incorporated.
+           1994 NOTE:
+           For Panel respondents,1992 data have been included.
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 35
+
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1970: V700362(type 0)
+           1972: V720423
+           1974: V742552
+           1976: V763511
+           1978: V780606
+           1980: V800694
+           1982: V820735
+           1984: V840688
+           1986: V860738
+           1988: V880530
+           1990: V900526
+           1992: V923828
+           1994: V941103
+           1996: V960578
+           1998: V980543
+           2000: V000877,V000879
+           2002: V023085
+           2004: V043223,V043224
+           2008: V083186,V083186a
+           2012: relig_church,relig_churchoft
+           2016: V161244,V161245
+
+           VALUE  LABEL
+               0  Religion Inap (1970-1988); atheists and agnostics are
+               1  Every week (Except 1970: almost every week)
+               2  Almost every week (no cases in 1970)
+               3  Once or twice a month
+               4  A few times a year
+               5  Never (1990 and later: 'No' in filter)
+               7  No religious preference (1970-1988)
+               8  DK how often/DK if attend
+               9  NA/RF how often/NA/RF if attend
+
+           Data type: numeric
+           Missing-data codes: 0,8-*
+           Record/column: 1/89
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 36
+
+
+      VCF0130A           DEMOGRAPHICS: Respondent - Church Attendance 1990-
+
+           Lots of things come up that keep people from attending religious
+           services even if they want to.  Thinking about your life these
+           days, do you ever attend religious services, apart from occasional
+           weddings, baptisms or funerals?  (IF YES: ) Do you go to religious
+           services every week, almost every week, once or twice a month, a
+           few times a year, or never?
+           (IF R SAYS HE/SHE GOES TO RELIGIOUS SERVICES EVERY WEEK:)
+           Would you say you go to religious services once a week or more often
+           than once a week?
+
+           VALID CODES:
+           ------------
+           0. Every week - more than once a week
+           1. Every week - once a week or NA if once a week/more than once a week
+           2. Almost every week
+           3. Once or twice a month
+           4. A few times a year
+           5. Never ('No' in filter)
+
+           MISSING CODES:
+           --------------
+           8. DK how often/DK if attend
+           9. NA how often/NA if attend; short-form 'new' Cross Section (1992)
+           INAP. question not used
+
+           NOTES:
+           ------
+           1992 NOTE:
+           This question was not part of the 'short-form' questionnaire; for short-
+           form panel cases, however, 1990 study data were incorporated.
+           1994 NOTE:
+           For 1994 panel respondents, 1992 data have been included.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1990: V900526,V900527
+           1992: V923828,V923829
+           1994: V941103,V941104
+           1996: V960578,V960579
+           1998: V980543,V980544
+           2000: V000877,V000879,V000880
+           2002: V023085,V023086
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 37
+
+
+           2004: V043223,V043224
+           2008: V083186,V083186a,V083186b
+           2012: relig_church,relig_churchoft,relig_churchwk
+           2016: V161244,V161245,V161245a
+
+           VALUE  LABEL
+               0  Every week - more than once a week
+               1  Every week - once a week or NA if once a week/more
+               2  Almost every week
+               3  Once or twice a month
+               4  A few times a year
+               5  Never ('No' in filter)
+               8  DK how often/DK if attend
+               9  NA how often/NA if attend; short-form 'new'
+
+           Data type: numeric
+           Missing-data codes: 8,9-*
+           Record/column: 1/91
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 38
+
+
+      VCF0131            DEMOGRAPHICS: Respondent - Church Attendance 1952-1968
+
+           Would you say you go to church regularly, often, seldom or never?
+
+           VALID CODES:
+           ------------
+           1. Regularly
+           2. Often
+           4. Seldom
+           5. Never
+           7. No religious preference (1960-1968)
+
+           MISSING CODES:
+           --------------
+           9. NA
+           0. Religion refused/NA; no Pre IW; no Post IW
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           In all Pre-Post studies except 1960, this was a Pre var.
+           This question was asked only of Rs who gave a religious identification
+           (see VCF0128).
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1952: V520159
+           1956: V560133
+           1958: V580211
+           1960: V600253
+           1962: V620094
+           1964: V640236
+           1966: V660222
+           1968: V680214
+
+           VALUE  LABEL
+               0  Religion refused/NA; no Pre IW; no Post IW
+               1  Regularly
+               2  Often
+               4  Seldom
+               5  Never
+               7  No religious preference (1960-1968)
+               9  NA
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 39
+
+
+
+           Data type: numeric
+           Missing-data codes: 0,9-*
+           Record/column: 1/93
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 40
+
+
+      VCF0201            GROUP THERMOMETER: Democrats
+
+           Democrats -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK  (exc. 1964-1968: see VCF0201 note)
+           99. NA; no Post IW; form III,IV (1972)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1964: V640242
+           1966: V660124
+           1968: V680230
+           1970: V700248(type 0)
+           1972: V720719
+           1974: V742364
+           1976: V763833
+           1980: V800871
+           1982: V820146
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK (exc. 1964-1968: see note preceding VCF0201)
+              99  NA; no Post IW; form III,IV (1972)
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/95-96
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 41
+
+
+      VCF0202            GROUP THERMOMETER: Republicans
+
+           Republicans -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK  (exc. 1964-1968: see VCF0201 note)
+           99. NA; no Post IW; form III,IV (1972)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1964: V640247
+           1966: V660129
+           1968: V680237
+           1970: V700250(type 0)
+           1972: V720721
+           1974: V742366
+           1976: V763835
+           1980: V800873
+           1982: V820147
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK (exc. 1964-1968: see note preceding VCF0201)
+              99  NA; no Post IW; form III,IV (1972)
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/98-99
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 42
+
+
+      VCF0203            GROUP THERMOMETER: Protestants
+
+           Protestants -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK  (exc. 1964-1968: see VCF0201 note)
+           99. NA; no Post IW; form III,IV (1972)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1964: V640249
+           1966: V660123
+           1968: V680239
+           1972: V720715
+           1976: V763844
+           2000: V001325
+           2002: V025070
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK (exc. 1964-1968: see note preceding VCF0201)
+              99  NA; no Post IW; form III,IV (1972)
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/101-102
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 43
+
+
+      VCF0204            GROUP THERMOMETER: Catholics
+
+           Catholics -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK  (exc. 1964-1968: see VCF0201 note)
+           99. NA; no Post IW; form III,IV (1972)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1964: V640240
+           1966: V660121
+           1968: V680227
+           1972: V720712
+           1976: V763826
+           1984: V840774
+           1988: V880611
+           1992: V925321
+           2000: V001323
+           2002: V025068
+           2004: V045058
+           2008: V085064c
+           2012: ftgr_catholics
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK (exc. 1964-1968: see note preceding VCF0201)
+              99  NA; no Post IW; form III,IV (1972)
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/104-105
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 44
+
+
+      VCF0205            GROUP THERMOMETER: Jews
+
+           Jews -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK  (exc. 1964-1968: see VCF0201 note)
+           99. NA; no Post IW; form III,IV (1972)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1964: V640244
+           1966: V660126
+           1968: V680232
+           1972: V720716
+           1976: V763842
+           1988: V880626
+           1992: V925334
+           2000: V001324
+           2002: V025069
+           2004: V045061
+           2008: V085064f
+           2016: V162108
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK (exc. 1964-1968: see note preceding VCF0201)
+              99  NA; no Post IW; form III,IV (1972)
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/107-108
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 45
+
+
+      VCF0206            GROUP THERMOMETER: Blacks
+
+           Blacks -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK  (exc. 1964-1968: see VCF0201 note)
+           99. NA; no Post IW; form III,IV (1972); breakoff, sufficient partial (2016)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1964: V640250
+           1966: V660130
+           1968: V680240
+           1970: V700249(type 0)
+           1972: V720720
+           1974: V742365
+           1976: V763832
+           1980: V800870
+           1982: V820145
+           1984: V840763
+           1986: V860149
+           1988: V880613
+           1990: V900155
+           1992: V925323
+           1994: V940305
+           1996: V961029
+           1998: V980262
+           2000: V001308
+           2002: V025055
+           2004: V045077
+           2008: V085064y
+           2012: ftcasi_black
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 46
+
+
+           2016: V162312
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK  (exc. 1964-1968: see VCF0201 note)
+              99  NA; no Post IW; form III,IV (1972); breakoff, sufficient partial (2016)
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/110-111
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 47
+
+
+      VCF0207            GROUP THERMOMETER: Whites
+
+           Whites -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK  (exc. 1964-1968: see VCF0201 note)
+           99. NA; no Post IW; form III,IV (1972); breakoff, sufficient partial (2016)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1964: V640245
+           1966: V660128
+           1968: V680233
+           1970: V700247(type 0)
+           1972: V720718
+           1974: V742363
+           1976: V763846
+           1980: V800884
+           1982: V820144
+           1984: V840769
+           1988: V880625
+           1992: V925333
+           1994: V940313
+           1996: V961030
+           1998: V980270
+           2000: V001309
+           2002: V025056
+           2004: V045086
+           2008: V085065c
+           2012: ftcasi_white
+           2016: V162314
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 48
+
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK  (exc. 1964-1968: see VCF0201 note)
+              99  NA; no Post IW; form III,IV (1972); breakoff, sufficient partial (2016)
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/113-114
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 49
+
+
+      VCF0208            GROUP THERMOMETER: Southerners
+
+           Southerners -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK  (exc. 1964-1968: see VCF0201 note)
+           99. NA; no Post IW; form III,IV (1972)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1964: V640239
+           1968: V680226
+           1972: V720710
+           1976: V763824
+           1980: V800862
+           1992: V925332
+           2004: V045078
+           2008: V085064z
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK (exc. 1964-1968: see note preceding VCF0201)
+              99  NA; no Post IW; form III,IV (1972)
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/116-117
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 50
+
+
+      VCF0209            GROUP THERMOMETER: Big Business
+
+           Big business  -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK  (exc. 1964-1968:  see VCF0201 note)
+           99. NA; no Post IW; form III,IV (1972)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1964: V640241
+           1966: V660119
+           1968: V680224
+           1972: V720707
+           1974: V742356
+           1976: V763821
+           1980: V800859
+           1984: V840773
+           1988: V880612
+           1992: V925322
+           1994: V940314
+           1996: V961034
+           2000: V001313
+           2002: V025060
+           2004: V045067
+           2008: V085064n
+           2012: ftgr_bigbus
+           2016: V162100
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK (exc. 1964-1968: see note preceding VCF0201)
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 51
+
+
+              99  NA; no Post IW; form III,IV (1972)
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/119-120
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 52
+
+
+      VCF0210            GROUP THERMOMETER: Labor Unions
+
+           Labor unions -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK  (exc. 1964-1968:  see VCF0201 note)
+           99. NA; no Post IW; form III,IV (1972)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1964: V640246
+           1966: V660127
+           1968: V680235
+           1972: V720722
+           1974: V742367
+           1976: V763836
+           1980: V800874
+           1984: V840767
+           1986: V860151
+           1988: V880604
+           1990: V900157
+           1992: V925316
+           1994: V940307
+           1996: V961033
+           1998: V980266
+           2000: V001312
+           2002: V025059
+           2004: V045064
+           2008: V085064j
+           2012: ftgr_unions
+           2016: V162098
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 53
+
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK (exc. 1964-1968: see note preceding VCF0201)
+              99  NA; no Post IW; form III,IV (1972)
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/122-123
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 54
+
+
+      VCF0211            GROUP THERMOMETER: Liberals
+
+           Liberals -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK  (exc. 1964-1968: see VCF0201 note)
+           99. NA; no Post IW; form III,IV (1972)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1964: V640238
+           1966: V660120
+           1968: V680225
+           1970: V700252(type 0)
+           1972: V720709
+           1974: V742358
+           1976: V763823
+           1980: V800861
+           1982: V820142
+           1984: V840770
+           1986: V860153
+           1988: V880616
+           1990: V900161
+           1992: V925326
+           1994: V940311
+           1996: V961032
+           1998: V980267
+           2000: V001311
+           2002: V025058
+           2004: V045062
+           2008: V085064g
+           2012: ftgr_liberals
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 55
+
+
+           2016: V162097
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK (exc. 1964-1968: see note preceding VCF0201)
+              99  NA; no Post IW; form III,IV (1972)
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/125-126
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 56
+
+
+      VCF0212            GROUP THERMOMETER: Conservatives
+
+           Conservatives -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK  (exc. 1964-1968: see VCF0201 note)
+           99. NA; no Post IW; form III,IV (1972)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1964: V640251
+           1966: V660131
+           1968: V680241
+           1970: V700242(type 0)
+           1972: V720724
+           1974: V742369
+           1976: V763838
+           1980: V800877
+           1982: V820143
+           1984: V840764
+           1986: V860150
+           1988: V880609
+           1990: V900156
+           1992: V925319
+           1994: V940306
+           1996: V961031
+           1998: V980264
+           2000: V001310
+           2002: V025057
+           2004: V045069
+           2008: V085064q
+           2012: ftgr_cons
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 57
+
+
+           2016: V162101
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK (exc. 1964-1968: see note preceding VCF0201)
+              99  NA; no Post IW; form III,IV (1972)
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/128-129
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 58
+
+
+      VCF0213            GROUP THERMOMETER: Military
+
+           Military -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK  (exc. 1964-1968: see VCF0201 note)
+           99. NA; no Post IW; form III,IV (1972)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1964: V640243
+           1968: V680231
+           1970: V700246(type 0)
+           1972: V720717
+           1974: V742362
+           1976: V763831
+           1980: V800869
+           1984: V840781
+           1988: V880618
+           1992: V925328
+           1996: V961027
+           2000: V001306
+           2002: V025053
+           2004: V045066
+           2008: V085064m
+           2012: ftgr_military
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK (exc. 1964-1968: see note preceding VCF0201)
+              99  NA; no Post IW; form III,IV (1972)
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 59
+
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/131-132
+
+      ________________________________________________________________________
+
+      VCF0214            GROUP THERMOMETER: Policemen/Police
+
+           Policemen (1992: the police; 2016: police) -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK  (exc. 1964-1968: see VCF0201 note)
+           99. NA; no Post IW; form III,IV (1972)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1966: V660125
+           1968: V680228
+           1970: V700240(type 0)
+           1972: V720714
+           1974: V742360
+           1976: V763828
+           1992: V925340
+           2016: V162110
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK (exc. 1964-1968: see note preceding VCF0201)
+              99  NA; no Post IW; form III,IV (1972)
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/134-135
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 60
+
+
+      VCF0219            GROUP THERMOMETER: Middle Class People
+
+           Middle class people -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK
+           99. NA; no Post IW; form III,IV (1972)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1972: V720734
+           1974: V742376
+           1976: V763848
+           1980: V800886
+           1984: V840766
+           2004: V045063
+           2008: V085064h
+           2012: ftgr_middle
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK
+              99  NA; no Post IW; form III,IV (1972)
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/137-138
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 61
+
+
+      VCF0220            GROUP THERMOMETER: People on Welfare
+
+           People on welfare -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK
+           99. NA; no Post IW
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1976: V763834
+           1980: V800872
+           1984: V840777
+           1986: V860154
+           1988: V880607
+           1990: V900159
+           1992: V925318
+           1994: V940309
+           1996: V961036
+           2000: V001315
+           2002: V025062
+           2004: V045068
+           2008: V085064p
+           2012: ftgr_welfare
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK
+              99  NA; no Post IW
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 62
+
+
+           Record/columns: 1/140-141
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 63
+
+
+      VCF0223            GROUP THERMOMETER: Poor People
+
+           Poor people -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK
+           99. NA; no Post IW; form III,IV (1972)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1972: V720708
+           1974: V742357
+           1976: V763822
+           1980: V800860
+           1984: V840768
+           1986: V860156
+           1988: V880610
+           1990: V900162
+           1992: V925320
+           1994: V940312
+           1996: V961035
+           1998: V980268
+           2000: V001314
+           2002: V025061
+           2004: V045065
+           2008: V085064k
+           2012: ftgr_poor
+           2016: V162099
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 64
+
+
+              99  NA; no Post IW; form III,IV (1972)
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/143-144
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 65
+
+
+      VCF0232            GROUP THERMOMETER: Gays and Lesbians
+
+           Gay men and lesbians (that is), homosexuals -- thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK; don't recognize
+           99. NA; no Post IW
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1984: V840778
+           1988: V880627
+           1992: V925335
+           1994: V940318
+           1996: V961042
+           1998: V980265
+           2000: V001321
+           2002: V025067
+           2004: V045074
+           2008: V085064u
+           2012: ftgr_gay
+           2016: V162103
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK; don't recognize
+              99  NA; no Post IW
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/146-147
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 66
+
+
+      VCF0234            GROUP THERMOMETER: Christian Fundamentalists
+
+           Christian fundamentalists -- thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK; don't recognize
+           99. NA; no Post IW
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1988: V880629
+           1992: V925338
+           1994: V940315
+           1996: V961038
+           2000: V001317
+           2002: V025064
+           2004: V045057
+           2008: V085064b
+           2012: ftgr_xfund
+           2016: V162095
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK; don't recognize
+              99  NA; no Post IW
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/149-150
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 67
+
+
+      VCF9003            GROUP THERMOMETER: Evangelical Groups
+
+           Evangelical groups active in politics -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97.    97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK; don't recognize (1980 and later)
+           99. NA; no Post IW; abbrev. telephone IW (1984)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1980: V800885
+           1984: V840772
+           1988: V880614
+
+           VALUE  LABEL
+              97  97-100 Degrees
+              98  DK; don't recognize (1980 and later)
+              99  NA; no Post IW; abbrev. telephone IW (1984)
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/152-153
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 68
+
+
+      VCF0218            GROUP THERMOMETER: Democratic Party
+
+           The Democratic Party -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK
+           99. NA
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+           1984 NOTE:
+           This question was asked in both the pre and the post. The pre version
+           is included here.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1978: V780155
+           1980: V800168
+           1982: V820138
+           1984: V840305
+           1986: V860146
+           1988: V880164
+           1990: V900151
+           1992: V923317
+           1994: V940301
+           1996: V960292
+           1998: V980260
+           2000: V000369
+           2004: V043049
+           2008: V083044a
+           2012: ft_dem
+           2016: V161095
+
+           VALUE  LABEL
+              97  97-100 Degrees
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 69
+
+
+              98  DK
+              99  NA
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/155-156
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 70
+
+
+      VCF0224            GROUP THERMOMETER: Republican Party
+
+           The Republican Party -- feeling thermometer
+
+           VALID CODES:
+           ------------
+           00-96. Degrees as coded
+           97. 97-100 Degrees
+
+           MISSING CODES:
+           --------------
+           98. DK
+           99. NA
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See thermometer question text and notes preceding VCF0201.
+           1984 NOTE:
+           This question was asked in both the pre and the post. The pre version
+           is included here.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1978: V780156
+           1980: V800169
+           1982: V820139
+           1984: V840306
+           1986: V860147
+           1988: V880165
+           1990: V900152
+           1992: V923318
+           1994: V940302
+           1996: V960293
+           1998: V980261
+           2000: V000370
+           2004: V043050
+           2008: V083044b
+           2012: ft_rep
+           2016: V161096
+
+           VALUE  LABEL
+              97  97-100 Degrees
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 71
+
+
+              98  DK
+              99  NA
+
+           Data type: numeric
+           Missing-data codes: 98,99-*
+           Record/columns: 1/158-159
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 72
+
+
+      VCF0303            PARTISANSHIP: Party Identification of Respondent- Summary 3-Category
+
+           Party ID - 3 categories
+
+           VALID CODES:
+           ------------
+           1. Democrats (including leaners)
+           2. Independents
+           3. Republicans (including leaners)
+
+           MISSING CODES:
+           --------------
+           0. DK; NA; other; refused to answer; no Pre IW
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           Collapsed from VCF0301,  1-3=1, 4=2, 5-7=3
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1952: V520237
+           1956: V560088
+           1958: V580062
+           1960: V600091
+           1962: V620035
+           1964: V640146
+           1966: V660082
+           1968: V680120
+           1970: V700184(type 0)
+           1972: V720140
+           1974: V742204
+           1976: V763174
+           1978: V780433
+           1980: V800266
+           1982: V820291
+           1984: V840318
+           1986: V860300
+           1988: V880274
+           1990: V900320
+           1992: V923634
+           1994: V940655
+           1996: V960420
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 73
+
+
+           1998: V980339
+           2000: V000523
+           2002: V023038x
+           2004: V043116
+           2008: V083098x
+           2012: pid_x
+
+           VALUE  LABEL
+               0  DK; NA; other; refused to answer; no Pre IW
+               1  Democrats (including leaners)
+               2  Independents
+               3  Republicans (including leaners)
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/161
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 74
+
+
+      VCF0803            IDEOLOGY: Liberal-Conservative Scale
+
+           ALL YEARS EXC. 2000 TELEPHONE,2002:
+           We hear a lot of talk these days about liberals and conservatives.  Here
+           is (1972,1974: I'm going to show you) a 7-point scale on which the
+           political views that people might hold are arranged from extremely
+           liberal to extremely conservative.
+           Where would you place yourself on this scale, or haven't you thought
+           much about this?  (7-POINT SCALE SHOWN TO R)
+           2000 TELEPHONE:
+           When it comes to politics, do you usually think of yourself as extremely
+           liberal, liberal, slightly liberal, moderate or middle of the road,
+           slightly conservative, extremely conservative, or haven't you thought
+           much about this?
+           2002:
+           We hear a lot of talk these days about liberals and conservatives.  When
+           it comes to politics, do you usually think of yourself as extremely
+           liberal, liberal, slightly liberal, moderate or middle of the road,
+           slightly conservative, extremely conservative, or haven't you thought
+           much about this?
+
+           VALID CODES:
+           ------------
+           1. Extremely liberal
+           2. Liberal
+           3. Slightly liberal
+           4. Moderate, middle of the road
+           5. Slightly conservative
+           6. Conservative
+           7. Extremely conservative
+           9. DK; haven't thought much about it
+
+           MISSING CODES:
+           --------------
+           0. NA; no Post IW; form III,IV (1972); R not administered 7pt scale
+              series (2000)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           For years 1984 and later, a follow-up 'choice' question was asked of
+           respondents who replied 'don't know' or 'haven't thought much' to this
+           question; except for years 1984, 1986 and 1990 this follow-up 'choice'
+           question was also asked of respondents who answered 'moderate.'  For
+           these years, a final 3-category summary was constructed:  the 'choice'
+           question is found in VCF0824; the final 3-category summary is VCF0849.
+           2000 NOTE:
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 75
+
+
+           This variable represents 7-point scale data from interviews conducted
+           using both modes (telephone and personal).
+           In addition to the traditional 7-point scale version of this question,
+           approximately half of the 2000 Study respondents (both modes) were
+           instead randomly selected for administration of a branching series.
+           2012 NOTE:
+           Due to an error in the technical specifications, option 'Haven't
+           thought much about it' was not included in the web instrument; code 9
+           represents FTF cases only.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1972: V720652
+           1974: V742305
+           1976: V763286
+           1978: V780399
+           1980: V800267
+           1982: V820393
+           1984: V840369
+           1986: V860385
+           1988: V880228
+           1990: V900406
+           1992: V923509
+           1994: V940839
+           1996: V960365
+           1998: V980399
+           2000: V000440
+           2002: V023022
+           2004: V045117
+           2008: V083069
+           2012: libcpre_self
+           2016: V162171
+
+           VALUE  LABEL
+               0  NA; no Post IW; form III,IV (1972); R not
+               1  Extremely liberal
+               2  Liberal
+               3  Slightly liberal
+               4  Moderate, middle of the road
+               5  Slightly conservative
+               6  Conservative
+               7  Extremely conservative
+               9  DK; haven't thought much about it
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 76
+
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/163
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 77
+
+
+      VCF0806            ISSUES: Government Health Insurance Scale
+
+           There is much concern about the rapid rise in medical and hospital
+           costs.  Some (1988,1994-LATER: people) feel there should be a
+           government insurance plan which would cover all medical and hospital
+           expenses (1984 AND LATER: for everyone).  (1996,2004: Suppose these
+           people are at one end of a scale, at point 1). Others feel that
+           (1988,1994-1996: all) medical expenses should be paid by individuals,
+           and through private insurance (1984 AND LATER: plans) like Blue Cross
+           (1984-1994: or [1996:some] other company paid plans). (1996,2004:
+           Suppose these people are at the other end, at point 7.  And of course,
+           some people have opinions somewhere in between at points 2,3,4,5 or 6.)
+           Where would you place yourself on this scale, or haven't you thought
+           much about this?  (7-POINT SCALE SHOWN TO R)
+
+           VALID CODES:
+           ------------
+           1. Government insurance plan
+           2.
+           3.
+           4.
+           5.
+           6.
+           7. Private insurance plan
+           9. DK; haven't thought much about it
+
+           MISSING CODES:
+           --------------
+           0. NA; split versions: not asked (2008); Form II (1972); no Post IW;
+              telephone IW (1984: see  VCF0015, 2000)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See also VCF0805.
+           2000 NOTE 1:
+           This variable represents 7-point scale data from interviews conducted
+           face-to-face.  Respondents interviewed by telephone were asked a
+           branching series and are not included.
+           2000 NOTE 2:
+           Approximately half of the respondents were randomly selected to be
+           administered this question with the introduction read with the
+           endpoint options in reverse order [private option first] and the
+           endpoint labels in the respondent booklet reversed.
+           2008 NOTE:
+           This question was administered to a random half sample of respondents
+           using verion 'OLD'; the remaining respondents were administered an
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 78
+
+
+           alternative version (version 'NEW').
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1970: V700134(type 0)
+           1972: V720208
+           1976: V763273
+           1978: V780381
+           1984: V841058
+           1988: V880318
+           1992: V923716
+           1994: V940950
+           1996: V960479
+           2000: V000609
+           2004: V043150
+           2008: V083119
+           2012: inspre_self
+           2016: V161184
+
+           VALUE  LABEL
+               0  NA; Form II (1972); version NEW (2008); no Post IW;
+               1  Government insurance plan
+               7  Private insurance plan
+               9  DK; haven't thought much about it
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/165
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 79
+
+
+      VCF0809            ISSUES: Guaranteed Jobs and Income Scale
+
+           Some people feel that the government in Washington should see to it
+           that every person has a job and a good standard of living.  (1972-
+           1978,1996-LATER: Suppose these people are at one end of a scale, at
+           point 1).  Others think the government should just let each person get
+           ahead on his/their own. (1972-1978,1996: Suppose these people are at
+           the other end, at point 7.  And, of course, some other people have
+           opinions somewhere in between, at pints 2,3,4,5 or 6.)
+           Where would you place yourself on this scale, or haven't you thought
+           much about this?  (7-POINT SCALE SHOWN TO R)
+
+           VALID CODES:
+           ------------
+           1. Government see to job and good standard of living
+           2.
+           3.
+           4.
+           5.
+           6.
+           7. Government let each person get ahead on his own
+           9. DK; haven't thought much about it
+
+           MISSING CODES:
+           --------------
+           0. NA; no Post IW; split versions: not asked (2008); form A (1986);
+              telephone IW (2000)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See also:   VCF0808.
+           1972 NOTE:
+           This question was asked in the pre for form I and in the post for form
+           II (and IV).
+           2000 NOTE:
+           This variable represents 7-point scale data from interviews conducted
+           face-to-face.  Respondents interviewed by telephone were asked a
+           branching series and are not included here.
+           2008 NOTE:
+           This question was administered to a random half sample of respondents
+           using verion 'OLD'; the remaining respondents were administered an
+           alternative version (version 'NEW').
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 80
+
+
+
+           SOURCE VARS:
+           ------------
+           1972: V721067
+           1974: V742265
+           1976: V763241
+           1978: V780357
+           1980: V801110
+           1982: V820425
+           1984: V840414
+           1986: V860486
+           1988: V880323
+           1990: V900446
+           1992: V923718
+           1994: V940930
+           1996: V960483
+           1998: V980457
+           2000: V000615
+           2004: V043152
+           2008: V083128
+           2012: guarpr_self
+           2016: V161189
+
+           VALUE  LABEL
+               0  NA; no Post IW; form A (1986); version NEW (2008);
+               1  Government see to job and good standard of living
+               7  Government let each person get ahead on his own
+               9  DK; haven't thought much about it
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/167
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 81
+
+
+      VCF0830            ISSUES: Aid to Blacks Scale
+
+           1970-1984,1986 FORM B, 1988 FORM B:
+           Some people feel that the government in Washington should make every
+           possible effort to improve the social and economic position of blacks
+           (1970: Negroes) and other minority groups (1980: even if it means giving
+           them preferential treatment).  Others feel that the government should
+           not make any special effort to help minorities because they should help
+           themselves (1970: but they should be expected to help themselves).
+           1986 FORM A, 1988 FORM A, 1990 AND LATER:
+           Some people feel that the government in Washington should make every
+           (prior to 1996 only: possible) effort to improve the social and economic
+           position of blacks. (1996-LATER: Suppose these people are at one end of
+           a scale, at point 1). Others feel that the government should not make any
+           special effort to help blacks because they should help themselves.
+           (1996-LATER: Suppose these people are at the other end, at point 7.
+           And, of course, some other people have opinions somewhere in between,
+           at points 2,3,4,5 or 6).
+           ALL YEARS:  Where would you place yourself on this scale, or haven't
+           you thought much about it?  (7-POINT SCALE SHOWN TO R)
+
+           VALID CODES:
+           ------------
+           1. Government should help minority groups/blacks
+           2.
+           3.
+           4.
+           5.
+           6.
+           7. Minority groups/ blacks should help themselves
+           9. DK; haven't thought much about it
+
+           MISSING CODES:
+           --------------
+           0. NA; telephone IW (2000); no Post IW
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           Note that form B in 1986, form B in 1988, and all previous years
+           specified 'blacks and other minorities' in this question, while form A
+           in 1986, form A in 1988, and all cases in 1990 and after specified
+           only 'blacks.'  To filter for form A/B responses, use variable
+           VCF0012.
+           2000 NOTE:
+           This variable represents 7-point scale data from interviews conducted
+           face-to-face; telephone respondents were administered asked a branching
+
+
+                                  August 19, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 82
+
+
+           series and are not represented here.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1970: V700106(type 0)
+           1972: V720629
+           1974: V742296
+           1976: V763264
+           1978: V780373
+           1980: V801062
+           1982: V820415
+           1984: V840382
+           1986: V860426(form B),V860427(form A)
+           1988: V880332(form A),V880340(form B)
+           1990: V900447
+           1992: V923724
+           1994: V940936
+           1996: V960487
+           1998: V980462
+           2000: V000641
+           2004: V043158
+           2008: V083137
+           2016: V161198
+
+           VALUE  LABEL
+               0  NA; telephone IW (2000); no Post IW
+               1  Government should help minority groups/blacks
+               7  Minority groups/ blacks should help themselves
+               9  DK; haven't thought much about it
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/169
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  August 19, 2020
