@@ -1,0 +1,877 @@
+
+    
+
+    
+
+    
+
+                   SVT:S VALLOKALUNDERSÖKNING 1991
+                              SSD 0278
+
+                           Primärforskare
+                            Hans Hernborn
+                         Sveriges Television
+                           Sören Holmberg
+                  Statsvetenskapliga institutionen
+                        Göteborgs universitet
+                    Per Näsman, Torbjörn Theeden
+                      Statistiska institutionen
+                       Stockholms universitet
+
+                         Första SSD-upplagan
+                            November 1991
+
+    
+
+               Svensk Samhällsvetenskaplig Datatjänst
+                           Skanstorget 18
+                          S-411 22 Göteborg
+
+    
+                     ANVISNINGAR FÖR ANVÄNDAREN.
+
+    Oavsett publikationsform skall alla uppsatser och rapporter
+    som bygger på data tillgängliggjorda genom SSD tillkännage
+    detta förhållande, samt namnge primärforskaren. SSD ber
+    därför alla användare av SSD-material att, så långt detta är
+    möjligt, använda sig av följande uttalande. (Uttryck inom
+    parentes används i tillämpliga fall.)
+
+              Data (och tabeller) i denna (publikation)
+              har delvis gjorts tillgängliga av Svensk
+              Samhällsvetenskaplig Datatjänst. Materialet
+              i SVT:S VALLOKALSUNDERSÖKNING 1991 samlades
+              ursprungligen in av Sveriges Television.
+              Varken SSD eller primärforskarna bär ansvar
+              för analyser och tolkningar som presenteras
+              i denna (publikation).
+
+    Enligt överenskommelse mellan Sveriges Television och Svensk
+    Samhällsvetenskaplig Datatjänst får SVT:S
+    VALLOKALUNDERSÖKNING 1991 förmedlas till och analyseras av
+    forskare under förutsättning att användningen sker i
+    forskningssyfte. Härvid skall HSFR:s forskningsetiska
+    principer för humaniora och samhällsvetenskap, publicerade i
+    skriften HSFR-ETIK, följas i alla tillämpliga delar.
+
+    Data och/eller dokumentation får ej ställas till tredje
+    persons förfogande utan SSD:s skriftliga tillstånd.
+
+    Rapporter och publikationer baserade på dessa data skall
+    insändas i två exemplar till SSD, som vidarebefordrar ett
+    exemplar till primärforskaren.
+
+    I de fall materialet används i undervisningssyfte vid
+    universitet och högskolor och leder till producerandet av PM
+    och uppsatser behöver dessa ej insändas till SSD. I stället
+    skall en redovisning av kurser, antal användare och antal
+    producerade PM och uppsatser insändas till SSD efter
+    avslutat läsår.
+
+    
+
+                              INNEHÅLL
+
+                                                           Sida
+
+    INLEDNING
+
+           Bakgrund                                           I
+
+           Allmänna förutsättningar: urval, bortfall         II
+
+           Kodboksinformation                               III
+
+           SSD dokumentation                                 IV
+
+    VARIABELBESKRIVNING                                       V
+
+    KODBOK                                                    1
+
+    
+                                  I
+
+                              INLEDNING
+
+                              BAKGRUND
+
+    Vallokalundersökningar eller så kallade exit polls innebär i
+    korthet att man frågar ett urval av väljare då de lämnar
+    vallokalen dels vilket parti de röstat på och dels ett antal
+    valsociologiska frågor.
+
+    Undersökningsmetoden har med framgång använts i ett flertal
+    länder, däribland USA, för prognos- och analysändamål. I
+    Sverige har vallokalundersökningar varit på tal vid flera
+    tidigare val men inte genomförts. Främsta anledningen till
+    att de inte genomförts har varit brist på medel och en viss
+    tveksamhet om de svenska väljarnas villighet att svara på
+    frågor om sitt partival.
+
+    Vid valet 1991 genomfördes dock en första
+    vallokalundersökning (VALU-91). Undersökningen genomfördes
+    av Sveriges Television/Sveriges Radio i samarbete med
+    universiteten i Göteborg och Stockholm.
+
+    Syftet med VALU-91 var att ge ett bakgrundsmaterial för den
+    valvaka som sändes i radio och TV. Med hjälp av VALU-91
+    kunde omfattande analyser av valresultatet ske redan under
+    valvakan.
+
+    Projektledare för VALU-91 var Hans Hernborn, Sveriges
+    Television. Per Näsman och Torbjörn Thedeen, statistiska
+    institutionen vid Stockholms universitet, svarade för den
+    statistiska undersökningsplanen. Per Näsman svarade vidare
+    för den praktiska uppläggningen av VALU-91 och de
+    dataanalyser som genomfördes under valkvällen. Sören
+    Holmberg, statsvetenskapliga institutionen vid Göteborgs
+    universitet, svarade för utformningen av enkätformuläret och
+    de frågor som där ingick.
+
+    
+                                 II
+
+              ALLMÄNNA FÖRUTSÄTTNINGAR: URVAL, BORTFALL
+
+    I VALU-91 delades Sverige (valkretsarna) in i fem
+    geografiska regioner grupperade kring högskolestäderna Lund,
+    Göteborg, Stockholm, Sundsvall och Luleå. I var och en av
+    regionerna engagerades en högskolelärare som regional
+    undersökningsledare. Undersökningsledaren fungerade på
+    respektive ort som arbetsledare för de cirka 25 fältombud
+    som genomförde undersökningen i vallokalerna respektive på
+    postkontoren. Respektive högskolas institution för statistik
+    utgjorde rekryteringsunderlaget för undersökningsledarna och
+    fältombuden. Sålunda har samtliga regionala
+    undersökningsledare och fältombud kunskaper i statistisk
+    metodik.
+
+    Med hjälp av statistik rörande genomförd poströstning valet
+    1988 (Nils Johnson och Johan Weine) valdes 10 postkontor ut
+    för att ingå i VALU-91. Vid de utvalda postkontoren fick de
+    som poströstade under ett förmiddags- respektive ett
+    eftermiddagspass under torsdagen och fredagen före valdagen
+    fylla i enkäten. Förmiddagspasset var alltid tre timmar och
+    eftermiddagspasset alltid en timma. Startpunkten för
+    respektive pass valdes slumpmässigt.
+
+    I postlokalerna insamlades 450 enkätsvar. Andelen som
+    vägrade fylla i enkäten var cirka 35 procent. Denna siffra
+    baserar sig helt på bedömningar av fältombuden då ingen
+    kontroll av antal vägrare eller kartläggning av deras
+    bakgrundsvariabler eller motiv för vägran gjordes. Spontant
+    uppgav dock huvuddelen av vägrarna tidsbrist som motivet för
+    vägran.
+
+    Under valdagen genomfördes VALU-91 vid 26 vallokaler. Detta
+    kom att svara mot 31 valdistrikt. Valdistrikten var
+    fördelade på de olika regionerna i enlighet med regionernas
+    storlek vad avser antalet röstberättigade. Detta innebär
+    till exempel att det i de två norrlandsregionerna utvaldes
+    färre valdistrikt än i de övriga regionerna. Inom varje
+    region valdes så genom slumpmässigt stratifierat urval
+    (stratifierat efter storlek och geografiskt läge inom
+    regionen) de valdistrikt som skulle ingå i VALU-91. På detta
+    sätt kom 26 valdistrikt att utväljas. För varje valdistrikt
+    utvaldes därefter ett förmiddagspass om 2 timmar och ett
+    eftermiddagspass om 1 timma. Passens startpunkt valdes
+    slumpmässigt.
+
+    
+    Vid VALU-91s genomförande visade sig att det i två utvalda
+    valdistrikt, båda liggande i Stockholm, var omöjligt att
+    särskilja de röstande från det utvalda distriktet från andra
+    röstande, beroende på att flera valdistrikt använde samma
+    vallokal. På detta sätt kom ytterligare 5 valdistrikt med i
+    undersökningen. I det ursprungliga urvalet ingick Matteus 1,
+    tillkom gjorde Matteus 2, Matteus 3, Matteus4 och Matteus 5
+    som alla använde samma vallokal som Matteus 1. På samma sätt
+    tillkom Bromma 18 som använde samma vallokal som det
+    ursprungligen utvalda Bromma 16.
+
+    I vallokalerna insamlades 2279 enkätsvar. Andelen vägrare
+    var genomgående lägre än vid postlokalerna. Totala antalet
+    svar i VALU-91 blev 2729. Svarsfrekvensen bedömdes till
+    cirka 70 procent och internbortfallet till cirka 10 procent.
+
+    För ytterligare information om undersökningen se:
+
+    VALU 91. Sveriges Televisions valundersökning 1991. Sveriges
+    Television
+
+    
+                                 III
+
+                         KODBOKSINFORMATION
+
+    Exemplet nedan visar hur en variabel vanligtvis beskrivs i
+    denna kodbok. Siffrorna inom parentes förekommer inte i
+    kodboken, utan är en hänvisning till den beskrivning som
+    följer exemplet.
+
+    ............................................................
+
+    (1) VAR 13     (2) FÖRTROENDE POLITIKER   7        (3) MD=9
+        REF 13     (4) LOC 33  WIDTH 1              (5) NUMERIC
+
+     (6) F.7 Allmänt sett, hur stort förtroende har Du för
+              svenska politiker?
+
+     (7) ......................
+
+        (8)  (9)  (10)
+       142    1.   Mycket stort
+      1040    2.   Ganska stort
+      1101    3.   Ganska litet
+       325    4.   Mycket litet
+
+       121    9.   Uppgift saknas
+
+    ............................................................
+
+    (1) Variabel- och referensnummer. Brukar vanligtvis vara
+    identiska. Om kodboken hänvisar till ett subset av en större
+    datamängd eller en omorganiserad datamängd anger
+    referensnumret den ursprungliga datamängdens variabelnummer.
+
+    (2) Variabelnamn. En förkortning eller summering av
+    frågeställningen (max. 24 tecken).
+
+    (3) Missing data. Anger vilka värden som betraktas som
+    missing data för den aktuella variabeln.
+
+    
+
+    (4) Position. Visar variabelns läge i datamängden; i vilken
+    kolumn den startar och hur många positioner den upptar.
+
+    (5) Anger om data är numerisk eller alfabetisk.
+
+    (6) Den exakta frågeformuleringen som den formulerats i
+    frågeformuläret eller liknande.
+
+    (7) Eventuella kommentarer eller anmärkningar.
+
+    (8) Det absoluta antalet observationer för varje
+    svarskategori.
+
+    (9) Kodvärden som kan förekomma för den aktuella variabeln.
+
+    (10) Beskrivning av varje kodvärdes innehåll.
+
+    
+                                 IV
+
+                          SSD DOKUMENTATION
+
+    Dokumentationsarbetet har bedrivits med hjälp av ett
+    datorbaserat dokumentationssystem som ställts till SSD:s
+    förfogande av Inter-University Consortium for Political and
+    Social Research (ICPSR) vid University of Michigan. Systemet
+    kallas Guided Interactive Dataset Organization (GIDO).
+
+    
+
+        1  SSDstudie NR 0278
+        2  SSDupplaga/datering NR 1
+        3  SSD Delstudieidentifikation 001
+
+        4  ID-nummer
+        5  Vallokal
+
+        6  Kön
+        7  Födelseår
+
+        8  Parti riksdagsvalet 1991
+        9  Parti kommunfullmäktigevalet 1991
+       10  Parti riksdagsvalet 1988
+       11  Tidpunkt röstbeslut
+       12  Placering vänster-högerskalan
+       13  Förtroende för svenska politiker
+
+       14  Arbetsmarknadsgrupp
+       15  Yrkesgrupp
+       16  Statlig, kommunal eller privat tjänst
+       17  Medlem i fackförening
+
+       18  Borgerlig statsminister
+       19  Religiös aktivitet
+
+       20  Bra politisk ideologi
+       21  Bra partiledare
+       22  Skatter
+       23  Miljö
+       24  Sysselsättning
+       25  Svensk ekonomi
+       26  Pensioner
+       27  Lag och ordning
+       28  Flyktingar
+       29  EG
+       30  Svensk utrikes- och säkerhetspolitik
+       31  Matpriser
+       32  Barnomsorg
+       33  Sjukvård
+
+
+
+
+VAR 1  SSDSTUDIE NR 0278                           Loc 1  width 4
+
+
+Svensk Samhällsvetenskaplig Datatjänst studie 0278
+
+
+
+VAR 2  SSDUPPLAGA NR 1                             Loc 5  width 1
+
+
+SSDupplaga/datering NR
+
+    Uppgift om ordningsföljd och utgivningstidpunkt.
+
+          1.  November 1991
+
+
+
+VAR 3  DELSTUDIE NR 001                            Loc 6  width 3
+
+
+SSD Delstudieidentifikation
+
+    Ordningsnummer i en serie på 1 delar.
+
+
+
+VAR 4  ID-NUMMER                                   Loc 9  width 5
+
+
+ID-nummer
+
+    Ett fyrsiffrigt identifikationsnummer
+
+
+
+VAR 5  VALLOKAL                                   Loc 14  width 7
+
+
+Vallokal
+
+    POSTRÖSTNING
+
+      64  1000000.  Luleå 6
+      31  1100000.  Helsingborg 2
+      22  2000000.  Boden 2
+      67  3000000.  Härnösand 1
+      45  4000000.  Timrå
+      56  5000000.  Sala
+      41  6000000.  Skärholmen 1
+      53  7000000.  Göteborg 2
+      47  8000000.  Uddevalla 2
+      24  9000000.  Malmö 19
+
+    VALLOKALSRÖSTNING
+
+     254  0101800.  Matteus 1-5
+      77  0101802.  Bromma 16 och 18
+      82  0102600.  Täby 7
+     138  0303800.  01 Danmark
+     106  0404800.  Nyköping 14
+     105  0505860.  Mjölby 2
+      80  0606800.  Gränna 2
+      52  0707630.  Tingsryd 2
+      56  1010830.  Sölvesborg 1
+      69  1111670.  Åstorp 7
+      91  1212800.  Möllevången 4
+     151  1212811.  Dalby 2
+      94  1314801.  Kvibille
+      77  1415802.  Backa 1
+      69  1415803.  Askim 7
+      42  1518630.  Kinna 2
+      88  1619820.  Skara 3
+      81  1720830.  Hagfors 3
+      78  2023840.  Avesta 4
+      61  2124320.  Harmånger 2
+      82  2225810.  Sundsvall 2
+      57  2225830.  Sollefteå 8
+     121  2326800.  Östersund 10
+      39  2427821.  Bodbyn
+      93  2528140.  Töre
+      36  2528800.  Luleå 5
+
+
+
+VAR 6  KÖN                    1                   Loc 21  width 1
+                                                             MD=9 
+
+F.1.  Är Du kvinna eller man?
+
+    1214  1.  Kvinna
+    1357  2.  Man
+
+     158  9.  Uppgift saknas
+
+
+
+VAR 7  FÖDELSEÅR              2                   Loc 22  width 3
+                                                           MD=999 
+
+F.2.  Vilket år är Du född?
+
+          092.  1892
+                .
+                .
+          099.  1899
+          000.  1900
+                .
+                .
+          073.  1973
+
+     208  999.  Uppgift saknas
+
+    Kod:    3    4    5    6    7    8    9   10   11   12   13
+    Frek:   3    1    6    7    1    1    4    2   13    8    7
+
+    Kod:   14   15   16   17   18   19   20   21   22   23   24
+    Frek:   5   14   12   23   19   20   24   27   25   29   32
+
+    Kod:   25   26   27   28   29   30   31   32   33   34   35
+    Frek:  24   27   28   22   32   28   39   43   35   29   39
+
+    Kod:   36   37   38   39   40   41   42   43   44   45   46
+    Frek:  29   50   50   36   39   38   62   59   39   55   55
+
+    Kod:   47   48   49   50   51   52   53   54   55   56   57
+    Frek:  58   67   54   49   44   50   49   41   48   53   50
+
+    Kod:   58   59   60   61   62   63   64   65   66   67   68
+    Frek:  39   51   49   49   54   46   56   56   55   62   46
+
+    Kod:   69   70   71   72   73   92   98  999
+    Frek:  70   52   61   33   36    1    1  208
+
+
+
+VAR 8  PARTI RIKSDAGSVAL 1991 3                   Loc 25  width 2
+                                                            MD=99 
+
+F.3(1).  Vilket parti har Du röstat på idag i riksdagsvalet?
+
+     615  01.  Moderaterna
+     180  02.  Centerpartiet
+     250  03.  Folkpartiet
+     919  04.  Socialdemokraterna
+     159  05.  Vänsterpartiet
+      99  06.  Miljöpartiet
+     165  07.  Kds
+     157  08.  Ny demokrati
+      20  09.  Annat parti
+      39  10.  Blankt
+       1  11.  Röstade ej
+      14  12.  Ej röstberättigad
+
+     111  99.  Uppgift saknas
+
+
+
+VAR 9  PARTI KOMMUNVAL 1991   3                   Loc 27  width 2
+                                                            MD=99 
+
+F.3(2).  Vilket parti har Du röstat på idag i
+kommunfullmäktigevalet?
+
+     583  01.  Moderaterna
+     217  02.  Centerpartiet
+     268  03.  Folkpartiet
+     872  04.  Socialdemokraterna
+     149  05.  Vänsterpartiet
+     101  06.  Miljöpartiet
+     127  07.  Kds
+      90  08.  Ny demokrati
+      77  09.  Annat parti
+      35  10.  Blankt
+       6  11.  Röstade ej
+
+     204  99.  Uppgift saknas
+
+
+
+VAR 10  PARTI RIKSDAGSVAL 1988 4                  Loc 29  width 2
+                                                            MD=99 
+
+F.4.  Vilket parti röstade Du på i riksdagsvalet 1988?
+
+     549  01.  Moderaterna
+     176  02.  Centerpartiet
+     273  03.  Folkpartiet
+    1024  04.  Socialdemokraterna
+     156  05.  Vänsterpartiet kommunisterna
+     110  06.  Miljöpartiet
+      60  07.  Kds
+      10  08.  Annat parti
+      43  09.  Blankt
+      60  10.  Röstade ej 1988
+     138  11.  Ej röstberättigad 1988
+
+     130  99.  Uppgift saknas
+
+
+
+VAR 11  TIDPUNKT RÖSTBESLUT    5                  Loc 31  width 1
+                                                             MD=9 
+
+F.5.  När bestämde Du Dig för vilket parti Du skulle rösta
+på i årets riksdagsval?
+
+     283  1.  Idag
+     420  2.  Under senaste veckan
+     486  3.  Tidigare under valrörelsen
+    1429  4.  Visste sedan länge hur jag skulle rösta
+      16  5.  Ej röstberättigad i riksdagsvalet
+
+      95  9.  Uppgift saknas
+
+
+
+VAR 12  VÄNSTER-HÖGERSKALAN    6                  Loc 32  width 1
+                                                             MD=9 
+
+F.6.  Man talar ibland om att politiska åsikter kan placeras
+in på en vänster-högerskala. Var någonstans skulle Du
+placera in Dig själv?
+
+     366  1.  Klart till vänster
+     504  2.  Något till vänster
+     677  3.  Varken till vänster eller höger
+     639  4.  Något till höger
+     376  5.  Klart till höger
+
+     167  9.  Uppgift saknas
+
+
+
+VAR 13  FÖRTROENDE POLITIKER   7                  Loc 33  width 1
+                                                             MD=9 
+
+F.7.  Allmänt sett, hur stort förtroende har Du för svenska
+politiker?
+
+     142  1.  Mycket stort
+    1040  2.  Ganska stort
+    1101  3.  Ganska litet
+     325  4.  Mycket litet
+
+     121  9.  Uppgift saknas
+
+
+
+VAR 14  ARBETSMARKNADSGRUPP    8                  Loc 34  width 1
+                                                             MD=9 
+
+F.8.  Vilken av de här grupperna tillhör Du just nu?
+
+    1787  1.  Förvärvsarbetande
+      18  2.  Har beredskapsarbete
+      17  3.  Genomgår arbetsmarknadsutbildning
+      90  4.  Arbetslös
+     382  5.  Ålderspensionär
+      82  6.  Förtidspensionär
+      60  7.  Hemarbetande
+     167  8.  Studerande
+
+     126  9.  Uppgift saknas
+
+
+
+VAR 15  YRKESGRUPP             9                  Loc 35  width 2
+                                                            MD=99 
+
+F.9.  Vilken av de här yrkesgrupperna hör/hörde Du till?
+
+     724  01.  Tjänsteman
+     405  02.  Tjänsteman med arbetsledande funktion
+      85  03.  Tjänsteman med företagsledande funktion
+     754  04.  Arbetare
+     148  05.  Arbetare med arbetsledande funktion
+      36  06.  Egenanställd arbetare
+      41  07.  Jordbrukare: ingen anställd
+       3  08.  Jordbrukare: en eller flera anställda
+      75  09.  Företagare: ingen anställd
+      68  10.  Företagare: 1-9 anställda
+      12  11.  Företagare: 10 eller fler anställda
+      86  12.  Aldrig yrkesarbetat
+
+     292  99.  Uppgift saknas
+
+
+
+VAR 16  OFFENTLIG EL PRIVAT   10                  Loc 37  width 1
+                                                             MD=9 
+
+F.10.  Arbetar/arbetade Du i statlig, kommunal eller privat
+tjänst?
+
+     360  1.  Statlig
+     680  2.  Kommunal (även landstingskommunal)
+    1296  3.  Privat
+      97  4.  Aldrig yrkesarbetat
+
+     296  9.  Uppgift saknas
+
+
+
+VAR 17  MEDLEM FACKFÖRENING   11                  Loc 38  width 1
+                                                             MD=9 
+
+F.11.  Är Du medlem i någon fackförening?
+
+     848  1.  Ja, LO-förbund
+     569  2.  Ja, TCO-förbund
+     265  3.  Ja, SACO-förbund
+     809  4.  Nej
+
+     238  9.  Uppgift saknas
+
+
+
+VAR 18  BORG. STATSMINISTER   12                  Loc 39  width 1
+                                                             MD=9 
+
+F.12.  Om de borgerliga partierna ska bilda regering, vem
+bör då bli statsminister?
+
+     981  1.  Carl Bildt
+     398  2.  Olof Johansson
+     160  3.  Alf Svensson
+     131  4.  Ian Wachtmeister
+     711  5.  Bengt Westerberg
+
+     348  9.  Uppgift saknas
+
+
+
+VAR 19  RELIGIÖS AKTIVITET    13                  Loc 40  width 1
+                                                             MD=9 
+
+F.13.  Hur ofta brukar Du gå till gudstjänst eller på möte i
+statskyrkan eller någon frikyrka eller annan kyrka eller
+samfund eller lyssna på radio- eller TV-gudstjänst eller
+sjukhusandakt?
+
+     199  1.  Minst en gång i månaden
+     565  2.  Några gånger om året
+     923  3.  Mera sällan
+     936  4.  Aldrig
+
+     106  9.  Uppgift saknas
+
+
+
+VAR 20  POLITISK IDEOLOGI     14                  Loc 41  width 1
+                                                             MD=9 
+
+F.14-27.  Hur viktiga var följande skäl för Ditt val av
+riksdagsparti i årets val?
+
+F.14.  Att partiet har en bra politisk ideologi
+
+    1772  1.  Mycket viktigt skäl
+     559  2.  Ganska viktigt skäl
+      58  3.  Inte alls viktigt skäl
+
+     340  9.  Uppgift saknas
+
+
+
+VAR 21  PARTILEDARE           15                  Loc 42  width 1
+                                                             MD=9 
+
+F.15.  Att partiet har en bra partiledare
+
+    <Se F.14-27 för fullständig frågetext>
+
+    1024  1.  Mycket viktigt skäl
+     899  2.  Ganska viktigt skäl
+     236  3.  Inte alls viktigt skäl
+
+     570  9.  Uppgift saknas
+
+
+
+VAR 22  SKATTER               16                  Loc 43  width 1
+                                                             MD=9 
+
+F.16.  Partiets politik när det gäller skatter
+
+    <Se F.14-27 för fullständig frågetext>
+
+    1551  1.  Mycket viktigt skäl
+     609  2.  Ganska viktigt skäl
+      99  3.  Inte alls viktigt skäl
+
+     470  9.  Uppgift saknas
+
+
+
+VAR 23  MILJÖ                 17                  Loc 44  width 1
+                                                             MD=9 
+
+F.17.  Partiets politik när det gäller miljö
+
+    <Se F.14-27 för fullständig frågetext>
+
+    1335  1.  Mycket viktigt skäl
+     755  2.  Ganska viktigt skäl
+      92  3.  Inte alls viktigt skäl
+
+     547  9.  Uppgift saknas
+
+
+
+VAR 24  SYSSELSÄTTNING        18                  Loc 45  width 1
+                                                             MD=9 
+
+F.18.  Partiets politik när det gäller sysselsättning
+
+    <Se F.14-27 för fullständig frågetext>
+
+    1732  1.  Mycket viktigt skäl
+     448  2.  Ganska viktigt skäl
+      63  3.  Inte alls viktigt skäl
+
+     486  9.  Uppgift saknas
+
+
+
+VAR 25  SVENSK EKONOMI        19                  Loc 46  width 1
+                                                             MD=9 
+
+F.19.  Partiets politik när det gäller svensk ekonomi
+
+    <Se F.14-27 för fullständig frågetext>
+
+    1776  1.  Mycket viktigt skäl
+     362  2.  Ganska viktigt skäl
+      42  3.  Inte alls viktigt skäl
+
+     549  9.  Uppgift saknas
+
+
+
+VAR 26  PENSIONER             20                  Loc 47  width 1
+                                                             MD=9 
+
+F.20.  Partiets politik när det gäller pensioner
+
+    <Se F.14-27 för fullständig frågetext>
+
+    1265  1.  Mycket viktigt skäl
+     799  2.  Ganska viktigt skäl
+     183  3.  Inte alls viktigt skäl
+
+     482  9.  Uppgift saknas
+
+
+
+VAR 27  LAG OCH ORDNING       21                  Loc 48  width 1
+                                                             MD=9 
+
+F.21.  Partiets politik när det gäller lag och ordning
+
+    <Se F.14-27 för fullständig frågetext>
+
+    1347  1.  Mycket viktigt skäl
+     662  2.  Ganska viktigt skäl
+     141  3.  Inte alls viktigt skäl
+
+     579  9.  Uppgift saknas
+
+
+
+VAR 28  FLYKTINGAR            22                  Loc 49  width 1
+                                                             MD=9 
+
+F.22.  Partiets politik när det gäller flyktingar
+
+    <Se F.14-27 för fullständig frågetext>
+
+     771  1.  Mycket viktigt skäl
+     900  2.  Ganska viktigt skäl
+     408  3.  Inte alls viktigt skäl
+
+     650  9.  Uppgift saknas
+
+
+
+VAR 29  EG                    23                  Loc 50  width 1
+                                                             MD=9 
+
+F.23.  Partiets politik när det gäller EG
+
+    <Se F.14-27 för fullständig frågetext>
+
+    1071  1.  Mycket viktigt skäl
+     755  2.  Ganska viktigt skäl
+     279  3.  Inte alls viktigt skäl
+
+     624  9.  Uppgift saknas
+
+
+
+VAR 30  SVENSK UTRIKESPOLITIK 24                  Loc 51  width 1
+                                                             MD=9 
+
+F.24.  Partiets politik när det gäller svensk utrikes- och
+säkerhetspolitik
+
+    <Se F.14-27 för fullständig frågetext>
+
+    1049  1.  Mycket viktigt skäl
+     840  2.  Ganska viktigt skäl
+     193  3.  Inte alls viktigt skäl
+
+     647  9.  Uppgift saknas
+
+
+
+VAR 31  MATPRISER             25                  Loc 52  width 1
+                                                             MD=9 
+
+F.25.  Partiets politik när det gäller matpriser
+
+    <Se F.14-27 för fullständig frågetext>
+
+    1476  1.  Mycket viktigt skäl
+     639  2.  Ganska viktigt skäl
+     110  3.  Inte alls viktigt skäl
+
+     504  9.  Uppgift saknas
+
+
+
+VAR 32  BARNOMSORG            26                  Loc 53  width 1
+                                                             MD=9 
+
+F.26.  Partiets politik när det gäller barnomsorg
+
+    <Se F.14-27 för fullständig frågetext>
+
+    1270  1.  Mycket viktigt skäl
+     663  2.  Ganska viktigt skäl
+     211  3.  Inte alls viktigt skäl
+
+     585  9.  Uppgift saknas
+
+
+
+VAR 33  SJUKVÅRD              27                  Loc 54  width 1
+                                                             MD=9 
+
+F.27.  Partiets politik när det gäller sjukvård
+
+    <Se F.14-27 för fullständig frågetext>
+
+    1863  1.  Mycket viktigt skäl
+     400  2.  Ganska viktigt skäl
+      48  3.  Inte alls viktigt skäl
+
+     418  9.  Uppgift saknas
