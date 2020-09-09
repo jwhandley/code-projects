@@ -17,3 +17,4 @@
 *.pdf
 *.json
 .vscode
+.cache-jwhandley
