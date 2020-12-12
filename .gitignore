@@ -19,5 +19,7 @@
 .vscode
 .cache-jwhandley
 *.Rdata
+.Rdata
+.RdataTmp
 *.RdataTmp
 *.sas7bdat
