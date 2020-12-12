@@ -1,0 +1,25 @@
+/Spotify Web App/
+/rate_my_spotify
+*.dta
+*.csv
+*.sav
+*.zip
+*.gz
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.dat
+*.dct
+*.xls
+*.xml
+*.pdf
+*.json
+.vscode
+.cache-jwhandley
+*.Rdata
+*.RdataTmp
+.Rdata
+.RdataTmp
+*.sas7bdat
