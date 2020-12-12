@@ -25,4 +25,5 @@
 .RdataTmp
 .ipynb-checkpoints
 .ipynb_checkpoints
+*/.ipynb_checkpoints/*
 *.sas7bdat
