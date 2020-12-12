@@ -1,0 +1,647 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+                General Social Survey 1972-2018 Cumulative Datafile
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page i
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      EQWLTH             Should govt reduce income differences               1
+      COMPWT             Composite weight =  WTSSALL * OVERSAMP * FORMWT     1
+      ISCO08             Respondent's occupation, 2010 census & 2008 ISCO    2
+      YEAR               GSS year for this respondent                        2
+      AGE                Age of respondent                                   2
+      SEX                Respondents sex                                     2
+      RACE               Race of respondent                                  3
+      EDUC               Highest year of school completed                    3
+      ISCO88             Respondent's occupation, 1980 census & 1988 ISCO    3
+      HOMPOP             Number of persons in household                      4
+      CONINC             Family income in constant dollars                   4
+      REGION             Region of interview                                 4
+      PARTYID            Political party affiliation                         5
+      POLVIEWS           Think of self as liberal or conservative            5
+      RELIG              R's religious preference                            6
+      DENOM              Specific denomination                               7
+      FUND               How fundamentalist Is R currently                   8
+      ATTEND             How often R attends religious services              8
+      CLASS              Subjective class identification                     9
+      UNION              Does R or spouse belong to union                    9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  November 9, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 1
+
+
+      EQWLTH             Should govt reduce income differences
+
+           74a. Some people think that the government in Washington ought
+           to reduce the income differences between the rich and the poor,
+           perhaps by raising the taxes of wealthy families or by giving
+           income assistance to the poor. Others think that the government
+           should not concern itself with reducing this income difference
+           between the rich and the poor. Here is a card with a scale from
+           1 to 7. Think of a score of 1 as meaning that the government
+           ought to reduce the income differences between rich and poor,
+           and a score of 7 meaning that the government should not concern
+           itself with reducing income differences. What score between 1
+           and 7 comes closest to the way you feel?
+
+           VALUE  LABEL
+               0  IAP
+               1  GOVT REDUCE DIFF
+               7  NO GOVT ACTION
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/1
+
+      ________________________________________________________________________
+
+      COMPWT             Composite weight =  WTSSALL * OVERSAMP * FORMWT
+
+
+           Created by COMPUTE version 3.5
+           on Mar 21, 2019  (Thu 04:01 PM PDT)
+
+           compwt = WTSSALL * OVERSAMP * FORMWT * (64814 / 64852.174)
+
+           Input variables:
+
+           FORMWT: Weight deal with experimental randomization
+
+           OVERSAMP: Weights for black oversamples
+
+           WTSSALL: Weight variable
+           From study: /html/D3/GSS18
+
+           Data type: numeric
+           Record/columns: 1/3-25
+
+
+
+
+
+
+                                  November 9, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 2
+
+
+      ISCO08             Respondent's occupation, 2010 census & 2008 ISCO code
+
+           Data type: numeric
+           Missing-data codes: 0,9998,9999
+           Record/columns: 1/27-30
+
+      ________________________________________________________________________
+
+      YEAR               GSS year for this respondent
+
+           Data type: numeric
+           Record/columns: 1/32-35
+
+      ________________________________________________________________________
+
+      AGE                Age of respondent
+
+           13. Respondent's age
+
+           VALUE  LABEL
+              89  89 OR OLDER
+              98  DK
+              99  NA
+
+           Data type: numeric
+           Missing-data codes: 0,98,99
+           Record/columns: 1/37-38
+
+      ________________________________________________________________________
+
+      SEX                Respondents sex
+
+           23. Code respondent's sex
+
+           VALUE  LABEL
+               1  MALE
+               2  FEMALE
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/40
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  November 9, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 3
+
+
+      RACE               Race of respondent
+
+           24. What race do you consider yourself?
+
+           VALUE  LABEL
+               0  IAP
+               1  WHITE
+               2  BLACK
+               3  OTHER
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/42
+
+      ________________________________________________________________________
+
+      EDUC               Highest year of school completed
+
+           15. What is the highest grade in elementary school or high
+           school that you finished and got credit for?
+
+           VALUE  LABEL
+              97  IAP
+              98  DK
+              99  NA
+
+           Data type: numeric
+           Missing-data codes: -1,97-99
+           Record/columns: 1/44-45
+
+      ________________________________________________________________________
+
+      ISCO88             Respondent's occupation, 1980 census & 1988 ISCO code
+
+           1642. Respondent's Occupation, 1988 Census
+
+           VALUE  LABEL
+               0  IAP
+            9997  Uncodeable
+            9998  DK
+            9999  NA
+
+           Data type: numeric
+           Missing-data codes: 0,9998,9999
+           Record/columns: 1/47-50
+
+
+
+
+
+
+
+
+                                  November 9, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 4
+
+
+      HOMPOP             Number of persons in household
+
+           34. Household size and composition.
+
+           VALUE  LABEL
+              98  DK
+              99  NA
+
+           Data type: numeric
+           Missing-data codes: 0,98,99
+           Record/columns: 1/52-53
+
+      ________________________________________________________________________
+
+      CONINC             Family income in constant dollars
+
+           1657. Inflation-adjusted family income.
+
+            VALUE  LABEL
+                0  IAP
+           999998  DONT KNOW
+           999999  NA
+
+           Data type: numeric
+           Decimals: 13
+           Missing-data codes: 0,999999,999998
+           Record/columns: 1/55-77
+
+      ________________________________________________________________________
+
+      REGION             Region of interview
+
+           VALUE  LABEL
+               0  NOT ASSIGNED
+               1  NEW ENGLAND
+               2  MIDDLE ATLANTIC
+               3  E. NOR. CENTRAL
+               4  W. NOR. CENTRAL
+               5  SOUTH ATLANTIC
+               6  E. SOU. CENTRAL
+               7  W. SOU. CENTRAL
+               8  MOUNTAIN
+               9  PACIFIC
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/79
+
+
+
+
+
+
+                                  November 9, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 5
+
+
+      PARTYID            Political party affiliation
+
+           56. Generally speaking, do you usually think of yourself as a
+           Republican, Democrat, Independent, or what?
+
+           VALUE  LABEL
+               0  STRONG DEMOCRAT
+               1  NOT STR DEMOCRAT
+               2  IND,NEAR DEM
+               3  INDEPENDENT
+               4  IND,NEAR REP
+               5  NOT STR REPUBLICAN
+               6  STRONG REPUBLICAN
+               7  OTHER PARTY
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: -1,8,9
+           Record/column: 1/81
+
+      ________________________________________________________________________
+
+      POLVIEWS           Think of self as liberal or conservative
+
+           67a. We hear a lot of talk these days about liberals and
+           conservatives. I'm going to show you a seven-point scale on
+           which the political views that people might hold are arranged
+           from extremely liberal - point 1 - to extremely conservative -
+           point 7. Where would you place yourself on this scale?
+
+           VALUE  LABEL
+               0  IAP
+               1  EXTREMELY LIBERAL
+               2  LIBERAL
+               3  SLIGHTLY LIBERAL
+               4  MODERATE
+               5  SLGHTLY CONSERVATIVE
+               6  CONSERVATIVE
+               7  EXTRMLY CONSERVATIVE
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/83
+
+
+
+
+
+
+                                  November 9, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 6
+
+
+      RELIG              R's religious preference
+
+           104. What is your religous preference? Is it Protestant,
+           Catholic, Jewish, some other religion, or no religion?
+
+           VALUE  LABEL
+               0  IAP
+               1  PROTESTANT
+               2  CATHOLIC
+               3  JEWISH
+               4  NONE
+               5  OTHER
+               6  BUDDHISM
+               7  HINDUISM
+               8  OTHER EASTERN
+               9  MOSLEM/ISLAM
+              10  ORTHODOX-CHRISTIAN
+              11  CHRISTIAN
+              12  NATIVE AMERICAN
+              13  INTER-NONDENOMINATIONAL
+              98  DK
+              99  NA
+
+           Data type: numeric
+           Missing-data codes: 0,98,99
+           Record/columns: 1/85-86
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  November 9, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 7
+
+
+      DENOM              Specific denomination
+
+           104a. If Protestant: What specific denomination is that, if any?
+
+           VALUE  LABEL
+               0  IAP
+              10  AM BAPTIST ASSO
+              11  AM BAPT CH IN USA
+              12  NAT BAPT CONV OF AM
+              13  NAT BAPT CONV USA
+              14  SOUTHERN BAPTIST
+              15  OTHER BAPTISTS
+              18  BAPTIST-DK WHICH
+              20  AFR METH EPISCOPAL
+              21  AFR METH EP ZION
+              22  UNITED METHODIST
+              23  OTHER METHODIST
+              28  METHODIST-DK WHICH
+              30  AM LUTHERAN
+              31  LUTH CH IN AMERICA
+              32  LUTHERAN-MO SYNOD
+              33  WI EVAN LUTH SYNOD
+              34  OTHER LUTHERAN
+              35  EVANGELICAL LUTH
+              38  LUTHERAN-DK WHICH
+              40  PRESBYTERIAN C IN US
+              41  UNITED PRES CH IN US
+              42  OTHER PRESBYTERIAN
+              43  PRESBYTERIAN, MERGED
+              48  PRESBYTERIAN-DK WH
+              50  EPISCOPAL
+              60  OTHER
+              70  NO DENOMINATION
+              98  DK
+              99  NA
+
+           Data type: numeric
+           Missing-data codes: 0,98,99
+           Record/columns: 1/88-89
+
+
+
+
+
+
+
+
+
+
+
+
+                                  November 9, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 8
+
+
+      FUND               How fundamentalist Is R currently
+
+           104c. Fundamentalism/liberalism of respondent's religion.
+
+           VALUE  LABEL
+               0  IAP
+               1  FUNDAMENTALIST
+               2  MODERATE
+               3  LIBERAL
+               8  DK
+               9  NA-EXCLUDED
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/91
+
+      ________________________________________________________________________
+
+      ATTEND             How often R attends religious services
+
+           105. How often do you attend religious services?
+
+           VALUE  LABEL
+               0  NEVER
+               1  LT ONCE A YEAR
+               2  ONCE A YEAR
+               3  SEVRL TIMES A YR
+               4  ONCE A MONTH
+               5  2-3X A MONTH
+               6  NRLY EVERY WEEK
+               7  EVERY WEEK
+               8  MORE THN ONCE WK
+               9  DK,NA
+
+           Data type: numeric
+           Missing-data codes: -1,9
+           Record/column: 1/93
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  November 9, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 9
+
+
+      CLASS              Subjective class identification
+
+           185a. If you were asked to use one of four names for your social
+           class, which would you say you belong in: the lower class, the
+           working class, the middle class, or the upper class?
+
+           VALUE  LABEL
+               0  IAP
+               1  LOWER CLASS
+               2  WORKING CLASS
+               3  MIDDLE CLASS
+               4  UPPER CLASS
+               5  NO CLASS
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/95
+
+      ________________________________________________________________________
+
+      UNION              Does R or spouse belong to union
+
+           196. Do you (or your [SPOUSE]) belong to a lobor union? Who?
+
+           VALUE  LABEL
+               0  IAP
+               1  R BELONGS
+               2  SPOUSE BELONGS
+               3  R AND SPOUSE BELONG
+               4  NEITHER BELONGS
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/97
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  November 9, 2020

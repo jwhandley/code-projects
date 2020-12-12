@@ -1,0 +1,233 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+                General Social Survey 1972-2018 Cumulative Datafile
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page i
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      COMPWT             Composite weight =  WTSSALL * OVERSAMP * FORMWT     1
+      EDUC               Highest year of school completed                    1
+      CONINC             Family income in constant dollars                   2
+      PARTYID            Political party affiliation                         2
+      YEAR               GSS year for this respondent                        2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  December 6, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 1
+
+
+      COMPWT             Composite weight =  WTSSALL * OVERSAMP * FORMWT
+
+
+           Created by COMPUTE version 3.5
+           on Mar 21, 2019  (Thu 04:01 PM PDT)
+
+           compwt = WTSSALL * OVERSAMP * FORMWT * (64814 / 64852.174)
+
+           Input variables:
+
+           FORMWT: Weight deal with experimental randomization
+
+           OVERSAMP: Weights for black oversamples
+
+           WTSSALL: Weight variable
+           From study: /html/D3/GSS18
+
+           Data type: numeric
+           Record/columns: 1/1-23
+
+      ________________________________________________________________________
+
+      EDUC               Highest year of school completed
+
+           15. What is the highest grade in elementary school or high
+           school that you finished and got credit for?
+
+           VALUE  LABEL
+              97  IAP
+              98  DK
+              99  NA
+
+           Data type: numeric
+           Missing-data codes: -1,97-99
+           Record/columns: 1/25-26
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  December 6, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 2
+
+
+      CONINC             Family income in constant dollars
+
+           1657. Inflation-adjusted family income.
+
+            VALUE  LABEL
+                0  IAP
+           999998  DONT KNOW
+           999999  NA
+
+           Data type: numeric
+           Decimals: 13
+           Missing-data codes: 0,999999,999998
+           Record/columns: 1/28-50
+
+      ________________________________________________________________________
+
+      PARTYID            Political party affiliation
+
+           56. Generally speaking, do you usually think of yourself as a
+           Republican, Democrat, Independent, or what?
+
+           VALUE  LABEL
+               0  STRONG DEMOCRAT
+               1  NOT STR DEMOCRAT
+               2  IND,NEAR DEM
+               3  INDEPENDENT
+               4  IND,NEAR REP
+               5  NOT STR REPUBLICAN
+               6  STRONG REPUBLICAN
+               7  OTHER PARTY
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: -1,8,9
+           Record/column: 1/52
+
+      ________________________________________________________________________
+
+      YEAR               GSS year for this respondent
+
+           Data type: numeric
+           Record/columns: 1/54-57
+
+
+
+
+
+
+
+
+
+
+                                  December 6, 2020

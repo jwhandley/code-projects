@@ -1,0 +1,294 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+                General Social Survey 1972-2018 Cumulative Datafile
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page i
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      OCC10              R's census occupation code (2010)                   1
+      CONINC             Family income in constant dollars                   1
+      EDUC               Highest year of school completed                    1
+      COMPWT             Composite weight =  WTSSALL * OVERSAMP * FORMWT     2
+      PARTYID            Political party affiliation                         2
+      RACE               Race of respondent                                  3
+      SEX                Respondents sex                                     3
+      AGE                Age of respondent                                   3
+      YEAR               GSS year for this respondent                        3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 December 10, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 1
+
+
+      OCC10              R's census occupation code (2010)
+
+           Occupation and industry questions asked and not directly coded
+           but used to code OCC and IND variables.
+
+           Data type: numeric
+           Missing-data codes: 0,9998,9999
+           Record/columns: 1/1-4
+
+      ________________________________________________________________________
+
+      CONINC             Family income in constant dollars
+
+           1657. Inflation-adjusted family income.
+
+            VALUE  LABEL
+                0  IAP
+           999998  DONT KNOW
+           999999  NA
+
+           Data type: numeric
+           Decimals: 13
+           Missing-data codes: 0,999999,999998
+           Record/columns: 1/6-28
+
+      ________________________________________________________________________
+
+      EDUC               Highest year of school completed
+
+           15. What is the highest grade in elementary school or high
+           school that you finished and got credit for?
+
+           VALUE  LABEL
+              97  IAP
+              98  DK
+              99  NA
+
+           Data type: numeric
+           Missing-data codes: -1,97-99
+           Record/columns: 1/30-31
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 December 10, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 2
+
+
+      COMPWT             Composite weight =  WTSSALL * OVERSAMP * FORMWT
+
+
+           Created by COMPUTE version 3.5
+           on Mar 21, 2019  (Thu 04:01 PM PDT)
+
+           compwt = WTSSALL * OVERSAMP * FORMWT * (64814 / 64852.174)
+
+           Input variables:
+
+           FORMWT: Weight deal with experimental randomization
+
+           OVERSAMP: Weights for black oversamples
+
+           WTSSALL: Weight variable
+           From study: /html/D3/GSS18
+
+           Data type: numeric
+           Record/columns: 1/33-55
+
+      ________________________________________________________________________
+
+      PARTYID            Political party affiliation
+
+           56. Generally speaking, do you usually think of yourself as a
+           Republican, Democrat, Independent, or what?
+
+           VALUE  LABEL
+               0  STRONG DEMOCRAT
+               1  NOT STR DEMOCRAT
+               2  IND,NEAR DEM
+               3  INDEPENDENT
+               4  IND,NEAR REP
+               5  NOT STR REPUBLICAN
+               6  STRONG REPUBLICAN
+               7  OTHER PARTY
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: -1,8,9
+           Record/column: 1/57
+
+
+
+
+
+
+
+
+
+
+                                 December 10, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 3
+
+
+      RACE               Race of respondent
+
+           24. What race do you consider yourself?
+
+           VALUE  LABEL
+               0  IAP
+               1  WHITE
+               2  BLACK
+               3  OTHER
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/59
+
+      ________________________________________________________________________
+
+      SEX                Respondents sex
+
+           23. Code respondent's sex
+
+           VALUE  LABEL
+               1  MALE
+               2  FEMALE
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/61
+
+      ________________________________________________________________________
+
+      AGE                Age of respondent
+
+           13. Respondent's age
+
+           VALUE  LABEL
+              89  89 OR OLDER
+              98  DK
+              99  NA
+
+           Data type: numeric
+           Missing-data codes: 0,98,99
+           Record/columns: 1/63-64
+
+      ________________________________________________________________________
+
+      YEAR               GSS year for this respondent
+
+           Data type: numeric
+           Record/columns: 1/66-69
+
+
+
+
+
+                                 December 10, 2020

@@ -1,0 +1,351 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+                General Social Survey 1972-2018 Cumulative Datafile
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page i
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      EQWLTH             Should govt reduce income differences               1
+      CONINC             Family income in constant dollars                   1
+      RACE               Race of respondent                                  2
+      EDUC               Highest year of school completed                    2
+      RELIG              R's religious preference                            3
+      FUND               How fundamentalist Is R currently                   3
+      COMPWT             Composite weight =  WTSSALL * OVERSAMP * FORMWT     4
+      YEAR               GSS year for this respondent                        4
+      WTSSALL            Weight variable                                     4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 November 16, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 1
+
+
+      EQWLTH             Should govt reduce income differences
+
+           74a. Some people think that the government in Washington ought
+           to reduce the income differences between the rich and the poor,
+           perhaps by raising the taxes of wealthy families or by giving
+           income assistance to the poor. Others think that the government
+           should not concern itself with reducing this income difference
+           between the rich and the poor. Here is a card with a scale from
+           1 to 7. Think of a score of 1 as meaning that the government
+           ought to reduce the income differences between rich and poor,
+           and a score of 7 meaning that the government should not concern
+           itself with reducing income differences. What score between 1
+           and 7 comes closest to the way you feel?
+
+           VALUE  LABEL
+               0  IAP
+               1  GOVT REDUCE DIFF
+               7  NO GOVT ACTION
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/1
+
+      ________________________________________________________________________
+
+      CONINC             Family income in constant dollars
+
+           1657. Inflation-adjusted family income.
+
+            VALUE  LABEL
+                0  IAP
+           999998  DONT KNOW
+           999999  NA
+
+           Data type: numeric
+           Decimals: 13
+           Missing-data codes: 0,999999,999998
+           Record/columns: 1/3-25
+
+
+
+
+
+
+
+
+
+
+
+
+                                 November 16, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 2
+
+
+      RACE               Race of respondent
+
+           24. What race do you consider yourself?
+
+           VALUE  LABEL
+               0  IAP
+               1  WHITE
+               2  BLACK
+               3  OTHER
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/27
+
+      ________________________________________________________________________
+
+      EDUC               Highest year of school completed
+
+           15. What is the highest grade in elementary school or high
+           school that you finished and got credit for?
+
+           VALUE  LABEL
+              97  IAP
+              98  DK
+              99  NA
+
+           Data type: numeric
+           Missing-data codes: -1,97-99
+           Record/columns: 1/29-30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 November 16, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 3
+
+
+      RELIG              R's religious preference
+
+           104. What is your religous preference? Is it Protestant,
+           Catholic, Jewish, some other religion, or no religion?
+
+           VALUE  LABEL
+               0  IAP
+               1  PROTESTANT
+               2  CATHOLIC
+               3  JEWISH
+               4  NONE
+               5  OTHER
+               6  BUDDHISM
+               7  HINDUISM
+               8  OTHER EASTERN
+               9  MOSLEM/ISLAM
+              10  ORTHODOX-CHRISTIAN
+              11  CHRISTIAN
+              12  NATIVE AMERICAN
+              13  INTER-NONDENOMINATIONAL
+              98  DK
+              99  NA
+
+           Data type: numeric
+           Missing-data codes: 0,98,99
+           Record/columns: 1/32-33
+
+      ________________________________________________________________________
+
+      FUND               How fundamentalist Is R currently
+
+           104c. Fundamentalism/liberalism of respondent's religion.
+
+           VALUE  LABEL
+               0  IAP
+               1  FUNDAMENTALIST
+               2  MODERATE
+               3  LIBERAL
+               8  DK
+               9  NA-EXCLUDED
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/35
+
+
+
+
+
+
+
+
+                                 November 16, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 4
+
+
+      COMPWT             Composite weight =  WTSSALL * OVERSAMP * FORMWT
+
+
+           Created by COMPUTE version 3.5
+           on Mar 21, 2019  (Thu 04:01 PM PDT)
+
+           compwt = WTSSALL * OVERSAMP * FORMWT * (64814 / 64852.174)
+
+           Input variables:
+
+           FORMWT: Weight deal with experimental randomization
+
+           OVERSAMP: Weights for black oversamples
+
+           WTSSALL: Weight variable
+           From study: /html/D3/GSS18
+
+           Data type: numeric
+           Record/columns: 1/37-59
+
+      ________________________________________________________________________
+
+      YEAR               GSS year for this respondent
+
+           Data type: numeric
+           Record/columns: 1/61-64
+
+      ________________________________________________________________________
+
+      WTSSALL            Weight variable
+
+           VALUE  LABEL
+              -1  IAP
+
+           Data type: numeric
+           Decimals: 17
+           Missing-data code: -1
+           Record/columns: 1/66-88
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 November 16, 2020

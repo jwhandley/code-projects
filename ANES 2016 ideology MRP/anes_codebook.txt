@@ -1,0 +1,1322 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+              American National Election Study 1948-2016 - Cumulative
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page i
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      VCF0901A           SAMPLE DESCRIPTION: State Code- FIPS                1
+      VCF0901B           SAMPLE DESCRIPTION: State Postal Abbrev             2
+      VCF0806            ISSUES: Government Health Insurance Scale           3
+      VCF0809            ISSUES: Guaranteed Jobs and Income Scale            5
+      VCF0830            ISSUES: Aid to Blacks Scale                         7
+      VCF0009Z           STUDY VARIABLE: Weight: For 1970 type 0 - 2012,2    9
+      VCF0102            DEMOGRAPHICS: Respondent - Age Group               10
+      VCF0104            DEMOGRAPHICS: Respondent - Gender                  12
+      VCF0105B           DEMOGRAPHICS: Race-ethnicity summary, 4 categori   14
+      VCF0110            DEMOGRAPHICS: Respondent - Education 4-category    17
+      VCF0112            SAMPLE DESCRIPTION: Census Region                  20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page 1
+
+
+      VCF0901A           SAMPLE DESCRIPTION: State Code- FIPS
+
+           State of interview - FIPS code
+
+           MISSING CODES:
+           --------------
+           99. NA
+           00. Wrong district identified (2000)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See Appendix 'STATE AND COUNTRY CODES'.
+           See notes VCF0901.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1952: V520006
+           1956: V560007
+           1958: V580009
+           1960: V600010
+           1962: V620003
+           1964: V640012
+           1966: V660010
+           1968: V680014
+           1970: V700018(type 0)
+           1972: V720004
+           1974: V742007
+           1976: V763007
+           1978: V780012
+           1980: V800008
+           1982: V820015
+           1984: V840013
+           1986: V860049
+           1988: V880012
+           1990: V900012
+           1992: V923017
+           1994: V940014
+           1996: V960109
+           1998: V980086
+           2000: V000079
+           2002: V021201
+           2004: V041202
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page 2
+
+
+           2012: sample_state
+           2016: V161010e
+
+           VALUE  LABEL
+               0  00. Wrong district identified (2000)
+              99  NA
+
+           Data type: numeric
+           Missing-data codes: 0,99-*
+           Record/columns: 1/1-2
+
+      ________________________________________________________________________
+
+      VCF0901B           SAMPLE DESCRIPTION: State Postal Abbrev
+
+           State of interview - state postal abbreviation
+
+           MISSING CODES:
+           --------------
+           99. NA; wrong district identified (2000)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           Built from VCF0901a.
+           NA, INAP in VCF0901a are represented here as 99.  Washington D.C. is
+           represented as 'DC'.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           Data type: character
+           Record/columns: 1/5-6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page 3
+
+
+      VCF0806            ISSUES: Government Health Insurance Scale
+
+           There is much concern about the rapid rise in medical and hospital
+           costs.  Some (1988,1994-LATER: people) feel there should be a
+           government insurance plan which would cover all medical and hospital
+           expenses (1984 AND LATER: for everyone).  (1996,2004: Suppose these
+           people are at one end of a scale, at point 1). Others feel that
+           (1988,1994-1996: all) medical expenses should be paid by individuals,
+           and through private insurance (1984 AND LATER: plans) like Blue Cross
+           (1984-1994: or [1996:some] other company paid plans). (1996,2004:
+           Suppose these people are at the other end, at point 7.  And of course,
+           some people have opinions somewhere in between at points 2,3,4,5 or 6.)
+           Where would you place yourself on this scale, or haven't you thought
+           much about this?  (7-POINT SCALE SHOWN TO R)
+
+           VALID CODES:
+           ------------
+           1. Government insurance plan
+           2.
+           3.
+           4.
+           5.
+           6.
+           7. Private insurance plan
+           9. DK; haven't thought much about it
+
+           MISSING CODES:
+           --------------
+           0. NA; split versions: not asked (2008); Form II (1972); no Post IW;
+              telephone IW (1984: see  VCF0015, 2000)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See also VCF0805.
+           2000 NOTE 1:
+           This variable represents 7-point scale data from interviews conducted
+           face-to-face.  Respondents interviewed by telephone were asked a
+           branching series and are not included.
+           2000 NOTE 2:
+           Approximately half of the respondents were randomly selected to be
+           administered this question with the introduction read with the
+           endpoint options in reverse order [private option first] and the
+           endpoint labels in the respondent booklet reversed.
+           2008 NOTE:
+           This question was administered to a random half sample of respondents
+           using verion 'OLD'; the remaining respondents were administered an
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page 4
+
+
+           alternative version (version 'NEW').
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1970: V700134(type 0)
+           1972: V720208
+           1976: V763273
+           1978: V780381
+           1984: V841058
+           1988: V880318
+           1992: V923716
+           1994: V940950
+           1996: V960479
+           2000: V000609
+           2004: V043150
+           2008: V083119
+           2012: inspre_self
+           2016: V161184
+
+           VALUE  LABEL
+               0  NA; Form II (1972); version NEW (2008); no Post IW;
+               1  Government insurance plan
+               7  Private insurance plan
+               9  DK; haven't thought much about it
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page 5
+
+
+      VCF0809            ISSUES: Guaranteed Jobs and Income Scale
+
+           Some people feel that the government in Washington should see to it
+           that every person has a job and a good standard of living.  (1972-
+           1978,1996-LATER: Suppose these people are at one end of a scale, at
+           point 1).  Others think the government should just let each person get
+           ahead on his/their own. (1972-1978,1996: Suppose these people are at
+           the other end, at point 7.  And, of course, some other people have
+           opinions somewhere in between, at pints 2,3,4,5 or 6.)
+           Where would you place yourself on this scale, or haven't you thought
+           much about this?  (7-POINT SCALE SHOWN TO R)
+
+           VALID CODES:
+           ------------
+           1. Government see to job and good standard of living
+           2.
+           3.
+           4.
+           5.
+           6.
+           7. Government let each person get ahead on his own
+           9. DK; haven't thought much about it
+
+           MISSING CODES:
+           --------------
+           0. NA; no Post IW; split versions: not asked (2008); form A (1986);
+              telephone IW (2000)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See also:   VCF0808.
+           1972 NOTE:
+           This question was asked in the pre for form I and in the post for form
+           II (and IV).
+           2000 NOTE:
+           This variable represents 7-point scale data from interviews conducted
+           face-to-face.  Respondents interviewed by telephone were asked a
+           branching series and are not included here.
+           2008 NOTE:
+           This question was administered to a random half sample of respondents
+           using verion 'OLD'; the remaining respondents were administered an
+           alternative version (version 'NEW').
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page 6
+
+
+
+           SOURCE VARS:
+           ------------
+           1972: V721067
+           1974: V742265
+           1976: V763241
+           1978: V780357
+           1980: V801110
+           1982: V820425
+           1984: V840414
+           1986: V860486
+           1988: V880323
+           1990: V900446
+           1992: V923718
+           1994: V940930
+           1996: V960483
+           1998: V980457
+           2000: V000615
+           2004: V043152
+           2008: V083128
+           2012: guarpr_self
+           2016: V161189
+
+           VALUE  LABEL
+               0  NA; no Post IW; form A (1986); version NEW (2008);
+               1  Government see to job and good standard of living
+               7  Government let each person get ahead on his own
+               9  DK; haven't thought much about it
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page 7
+
+
+      VCF0830            ISSUES: Aid to Blacks Scale
+
+           1970-1984,1986 FORM B, 1988 FORM B:
+           Some people feel that the government in Washington should make every
+           possible effort to improve the social and economic position of blacks
+           (1970: Negroes) and other minority groups (1980: even if it means giving
+           them preferential treatment).  Others feel that the government should
+           not make any special effort to help minorities because they should help
+           themselves (1970: but they should be expected to help themselves).
+           1986 FORM A, 1988 FORM A, 1990 AND LATER:
+           Some people feel that the government in Washington should make every
+           (prior to 1996 only: possible) effort to improve the social and economic
+           position of blacks. (1996-LATER: Suppose these people are at one end of
+           a scale, at point 1). Others feel that the government should not make any
+           special effort to help blacks because they should help themselves.
+           (1996-LATER: Suppose these people are at the other end, at point 7.
+           And, of course, some other people have opinions somewhere in between,
+           at points 2,3,4,5 or 6).
+           ALL YEARS:  Where would you place yourself on this scale, or haven't
+           you thought much about it?  (7-POINT SCALE SHOWN TO R)
+
+           VALID CODES:
+           ------------
+           1. Government should help minority groups/blacks
+           2.
+           3.
+           4.
+           5.
+           6.
+           7. Minority groups/ blacks should help themselves
+           9. DK; haven't thought much about it
+
+           MISSING CODES:
+           --------------
+           0. NA; telephone IW (2000); no Post IW
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           Note that form B in 1986, form B in 1988, and all previous years
+           specified 'blacks and other minorities' in this question, while form A
+           in 1986, form A in 1988, and all cases in 1990 and after specified
+           only 'blacks.'  To filter for form A/B responses, use variable
+           VCF0012.
+           2000 NOTE:
+           This variable represents 7-point scale data from interviews conducted
+           face-to-face; telephone respondents were administered asked a branching
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page 8
+
+
+           series and are not represented here.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1970: V700106(type 0)
+           1972: V720629
+           1974: V742296
+           1976: V763264
+           1978: V780373
+           1980: V801062
+           1982: V820415
+           1984: V840382
+           1986: V860426(form B),V860427(form A)
+           1988: V880332(form A),V880340(form B)
+           1990: V900447
+           1992: V923724
+           1994: V940936
+           1996: V960487
+           1998: V980462
+           2000: V000641
+           2004: V043158
+           2008: V083137
+           2016: V161198
+
+           VALUE  LABEL
+               0  NA; telephone IW (2000); no Post IW
+               1  Government should help minority groups/blacks
+               7  Minority groups/ blacks should help themselves
+               9  DK; haven't thought much about it
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative           Page 9
+
+
+      VCF0009Z           STUDY VARIABLE: Weight: For 1970 type 0 - 2012,2016 full sample
+
+           CDF Weight: 1970 type 0 - 2012 full sample
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See Appendix documentation: WEIGHTS IN THE CUMULATIVE DATA FILE
+
+           SOURCE VARS:
+           ------------
+           1958: V580003
+           1960: V600003
+           1974: V742003
+           1976: V763003
+           1992: V927000
+           1994: V940007a
+           1996: V960005a
+           1998: V980002
+           2000: V000002
+           2002: V020101
+           2004: V040101
+           2008: V080101
+           2012: weight_full
+           2016: V160101
+
+           Data type: numeric
+           Decimals: 4
+           Record/columns: 1/15-20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 10
+
+
+      VCF0102            DEMOGRAPHICS: Respondent - Age Group
+
+           1964-1976: What is your date of birth?
+           1978-1982:  What is the month and year of your birth?
+           1984-LATER: What is the month, day and year of your birth?
+
+           VALID CODES:
+           ------------
+           1. 17 - 24
+           2. 25 - 34
+           3. 35 - 44
+           4. 45 - 54
+           5. 55 - 64
+           6. 65 - 74
+           7. 75 - 99 and over (except 1954)
+
+           MISSING CODES:
+           --------------
+           0. NA; DK; RF; no Pre IW
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           Built from VCF0101 (except 1948,1954).  See notes VCF0101.
+           1948 NOTE:
+           Code 6 from 1948  includes respondents 65 years and older (no code 7).
+           1954 NOTE:
+           same NOTE as 1948
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1948: V480047
+           1952: V520142
+           2016: V161267
+
+           VALUE  LABEL
+               0  NA; DK; RF; no Pre IW
+               1  17 - 24
+               2  25 - 34
+               3  35 - 44
+               4  45 - 54
+               5  55 - 64
+               6  65 - 74
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 11
+
+
+               7  75 - 99 and over (except 1954)
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/22
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 12
+
+
+      VCF0104            DEMOGRAPHICS: Respondent - Gender
+
+           Respondent gender
+
+           VALID CODES:
+           ------------
+           1. Male
+           2. Female
+           3. Other (2016)
+
+           MISSING CODES:
+           --------------
+           0. NA; no Pre IW
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           For pre-post studies, when a gender variable was present in both the
+           pre and post, the pre variable is represented here. Coded by
+           interviewer.
+           1960 NOTE:
+           1960 pre variable 118 incorporated data from post gender variable
+           V600248 to establish the gender of 22 no-pre cases.
+           2016 NOTE:
+           In 2016, for the first time gender of respondent was self-description by
+           the respondent, and category Other was introduced.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1948: V480045
+           1952: V520128
+           1956: V560171
+           1958: V580170
+           1960: V600118
+           1962: V620098
+           1964: V640182
+           1966: V660236
+           1968: V680263
+           1970: V700390(type 0)
+           1972: V720424
+           1974: V742553
+           1976: V763512
+           1978: V780630
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 13
+
+
+           1980: V800720
+           1982: V820762
+           1984: V840707
+           1986: V860755
+           1988: V880413
+           1990: V900547
+           1992: V924201
+           1994: V941434
+           1996: V960066
+           1998: V980672
+           2000: V001029
+           2002: V023153
+           2004: V041109a
+           2008: V081101
+           2012: gender_respondent_x
+           2016: V161342
+
+           VALUE  LABEL
+               0  NA; no Pre IW
+               1  Male
+               2  Female
+               3  Other (2016)
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 14
+
+
+      VCF0105B           DEMOGRAPHICS: Race-ethnicity summary, 4 categories
+
+           1948,1952,1956-1970: Interviewer observation of Race.
+            1972-1976: Interviewer observation of Race.
+                       In addition to being American, what do you
+                       consider your main ethnic group or nationality
+                       group?
+            1978: Interviewer observation of Race.
+                  Interviewer observation: R of Hispanic origin.
+                  In addition to being American, is there another nationality or
+                  ethnic group that you feel you belong to?
+                  (IF YES:) What group is that?
+            1980,1982,1984,1986: Interviewer observation of Race.
+                                 Interviewer observation: R of Hispanic origin.
+                                 In addition to being American, what do you
+                                 consider your main ethnic group or nationality
+                                 group?
+            1988-1998: Interviewer observation of Race.
+                       In addition to being American, what do you consider your
+                       main ethnic group or nationality group?
+                       [IF HISPANIC ETHNIC GROUP NOT MENTIONED] Are you of Spanish
+                       or Hispanic origin or descent?
+            2000-2008: What racial or ethnic group or groups best describes you?
+                       [MULTIPLE MENTIONS CODED BY IWR]
+                       In addition to being American, what do you consider your main
+                       ethnic group or nationality group?
+                       [IF HISPANIC ETHNIC GROUP NOT MENTIONED] Are you of Spanish
+                       or Hispanic origin or descent?
+            2012,2016: Are you Spanish, Hispanic, or Latino?
+                       FTF ONLY: I am going to read you a list of five race categories.
+                       Please choose one or more races that you consider
+                       yourself to be: [MULTIPLE MENTIONS]: White / Black or
+                       African-American / American Indian or Alaska Native /
+                       Asian / Native Hawaiian or other Pacific Islander /
+                       Other.
+
+           VALID CODES:
+           ------------
+           1. White non-Hispanic
+           2. Black non-Hispanic
+           3. Hispanic
+           4. Other or multiple races, non-Hispanic
+
+           MISSING CODES:
+           --------------
+           9. Missing, DK/REF/NA
+           0. Missing, pre-1966 data
+           INAP. question not used
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 15
+
+
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           Collapsed from VCF0105a: 1=1,2=2,3=4,4=4,5=3,6=4,7=0,9=9.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1948: V480046
+           1952: V520129
+           1956: V560172
+           1958: V580171
+           1960: V600119
+           1962: V620097
+           1964: V640183
+           1966: V660237
+           1968: V680264
+           1970: V700391 (Type 0)
+           1972: V720406,V720425
+           1974: V742528,V742554
+           1976: V763489,V763513
+           1978: V780608,V780609,V780631,V780632
+           1980: V800695,V800696,V800721,V800722
+           1982: V820736,V820737,V820763,V820764
+           1984: V840689,V840690,V840708,V840709
+           1986: V860739,V860740,V860756,V860757
+           1988: V880412,V880534,V880535,V880540
+           1990: V900549,V900670,V900671,V900676
+           1992: V923011,V924116,V924117,V924122,V924202
+           1994: V941411,V941412,V941413,V941418,V941435
+           1996: V960067,V960703,V960704,V960708
+           1998: V980654,V980655,V980659,V980673
+           2000: V001006a,V001006b,V001006c,V001008,V001009,V001012
+           2002: V021001,V023150,V023151
+           2004: V043299,V043301a,V043301b,V043301c,V043305
+           2008: V083251a,V083251b,V083251c,V083251d,V083251e,V083252a,V083252b,V083252c,V083252d,V083256
+           2012: dem_racecps_asian,dem_racecps_black,dem_racecps_native,dem_racecps_othrace,dem_racecps_pacif,dem_racecps_racedkrf,dem_racecps_white
+           2016: V161310x
+
+           VALUE  LABEL
+               0  Missing, pre-1966 data
+               1  White non-Hispanic
+               2  Black non-Hispanic
+               3  Hispanic
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 16
+
+
+               4  Other or multiple races, non-Hispanic
+               9  Missing, DK/REF/NA
+
+           Data type: numeric
+           Missing-data codes: 0,9-*
+           Record/column: 1/26
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 17
+
+
+      VCF0110            DEMOGRAPHICS: Respondent - Education 4-category
+
+           1952-1972:  How many grades of school did you finish?
+            1974,1976:  What is highest grade of school or year of college
+            you have completed? Did you get a high school diploma or pass a high
+            school equivalency test? Do you have a college degree? (IF YES:) What
+            degree is that?
+            1978-1984: What is highest grade of school or year of college
+            you have completed? Did you get a high school diploma or pass a high
+            school equivalency test? Do you have a college degree? (IF YES:) What
+            is the highest degree that you have earned?
+            1986-2008: What is highest grade of school or year of college
+            you have completed? Did you get a high school diploma or pass a high
+            school equivalency test? What is the highest degree that you have
+            earned?
+            2012: What is the highest level of school you have completed or the
+            highest degree you have received?
+
+           VALID CODES:
+           ------------
+           1. Grade school or less (0-8 grades)
+           2. High school (12 grades or fewer, incl. non-college training if applicable)
+           3. Some college (13 grades or more but no degree;
+                1948 ONLY: college, no identification of degree status)
+           4. College or advanced degree (no cases 1948)
+
+           MISSING CODES:
+           --------------
+           0. DK; NA; no Pre IW; short-form 'new' Cross Section
+               (1992)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           See also VCF0140.
+           Code 4 includes 1 case in 1968, 2 cases in 1976 and 4 cases in 1974
+           which were designated by respondents as 'honorary degrees.'
+           Uncodeable Other mentions are included I missing data.
+           1948 NOTE 1:
+           Question wording is undocumented.
+           1948 NOTE 2:
+           No distinction was made between Rs holding college degrees and those
+           who attended college but did not receive a degree. All cases coded
+           'college' in 1948 are coded 3 -- there are no cases coded 4 for 1948.
+           1960 NOTE:
+           Personal data forms were completed for no-pre cases:  data from these
+           forms were incorporated.
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 18
+
+
+           1992 NOTE:
+           This was not part of the 'short-form' questionnaire; for short-form
+           panel cases, however, 1990 study data were incorporated.
+           1994 NOTE:
+           For panel cases, 1992 data were incorporated.
+           2002 NOTE:
+           For panel cases, 2000 data were incorporated.
+           2004 NOTE:
+           1 respondent who did not indicate highest grade, but who indicated
+           no high school diploma, has been coded 2.
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1948: V480048
+           1952: V520131
+           1956: V560181
+           1958: V580180
+           1960: V600128
+           1962: V620078
+           1964: V640196
+           1966: V660197
+           1968: V680156
+           1970: V700269(type 0)
+           1972: V720300
+           1974: V742418
+           1976: V763389
+           1978: V780513
+           1980: V800436
+           1982: V820542
+           1984: V840438
+           1986: V860602
+           1988: V880422
+           1990: V900557
+           1992: V923905,V923908
+           1994: V941206,V941209
+           1996: V960607,V960610
+           1998: V980577
+           2000: V000913
+           2002: V023131
+           2004: V043254
+           2008: V083218x
+           2012: dem_edu
+           2016: V161270
+
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 19
+
+
+           VALUE  LABEL
+               0  DK; NA; no Pre IW; short-form 'new' Cross Section
+               1  Grade school or less (0-8 grades)
+               2  High school (12 grades or fewer, incl. non-college
+               3  Some college (13 grades or more but no degree;
+               4  College or advanced degree (no cases 1948)
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/28
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 20
+
+
+      VCF0112            SAMPLE DESCRIPTION: Census Region
+
+           Region - U.S. Census
+
+           VALID CODES:
+           ------------
+           1. Northeast (CT, ME, MA, NH, NJ, NY, PA, RI, VT)
+           2. North Central (IL, IN, IA, KS, MI, MN, MO, NE, ND, OH, SD, WI)
+           3. South (AL, AR, DE, D.C., FL, GA, KY, LA, MD, MS, NC, OK, SC,TN, TX, VA, WV)
+           4. West (AK, AZ, CA, CO, HI, ID, MT, NV, NM, OR, UT, WA, WY)
+
+           MISSING CODES:
+           --------------
+           0. NA (1948)
+           INAP. question not used
+
+           NOTES:
+           ------
+           GENERAL NOTE:
+           This variable represents the region codes of the U.S. Census.
+           1952 NOTE:
+           No state variable was present, however this was recoded from sampling
+           location information.
+           1962 NOTE:
+           same as 1952.
+           1954 NOTE:
+           No state variable was present and no other location information was
+           available; this has been coded from a non-Census version region
+           variable comprised of categories containing unspecified states:
+           1. Northeast;  2. Midwest 3. South; 4. Far West.
+           1994 NOTE:
+           For panel respondents who moved between study years, region corresponds
+           to the place where R was intereviewed for the latest study.
+           1996 NOTE:
+           same as 1994
+
+           WEIGHT:
+           -------
+           VCF0009x/VCF0009y/VCF0009z
+
+           SOURCE VARS:
+           ------------
+           1952: V520005
+           1956: V560007
+           1958: V580009
+           1960: V600010
+           1962: V620003
+           1964: V640012
+
+
+                                 November 11, 2020
+
+
+
+      American National Election Study 1948-2016 - Cumulative          Page 21
+
+
+           1966: V660010
+           1968: V680014
+           1970: V700018(type 0)
+           1972: V720004
+           1974: V742005
+           1976: V763005
+           1978: V780012
+           1980: V800023
+           1982: V820014
+           1984: V840009
+           1986: V860025
+           1988: V880008
+           1990: V900008
+           1992: V923014
+           1994: V940011
+           1996: V960115
+           1998: V980098
+           2000: V000092
+           2002: V021203
+           2004: V041204a
+           2008: V081204
+           2012: sample_region
+           2016: V163001b
+
+           VALUE  LABEL
+               0  NA (1948)
+               1  Northeast (CT, ME, MA, NH, NJ, NY, PA, RI, VT)
+               2  North Central (IL, IN, IA, KS, MI, MN, MO, NE, ND,
+               3  South (AL, AR, DE, D.C., FL, GA, KY, LA, MD, MS, NC
+               4  West (AK, AZ, CA, CO, HI, ID, MT, NV, NM, OR, UT, WA,
+
+           Data type: numeric
+           Missing-data code: 0
+           Record/column: 1/30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 November 11, 2020

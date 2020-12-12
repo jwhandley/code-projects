@@ -1,0 +1,470 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                      CODEBOOK
+
+
+                General Social Survey 1972-2018 Cumulative Datafile
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page i
+
+
+                                      CONTENTS
+
+
+      item                                                                page
+
+      OCC10              R's census occupation code (2010)                   1
+      CASEID             YEAR + Respondent ID                                1
+      YEAR               GSS year for this respondent                        1
+      ID                 Respondent ID number                                1
+      NATHEAL            Improving & protecting nations health               1
+      NATFARE            Welfare                                             2
+      NATSOC             Social security                                     2
+      NATHEALY           Health:Version Y                                    3
+      NATFAREY           Assistance to the poor:Version Y                    3
+      NATHEALZ           Improving health:Version Z                          4
+      NATFAREZ           Caring for the poor:Version Z                       4
+      NATSOCZ            Protecting social security:Version Z                5
+      EQWLTH             Should govt reduce income differences               5
+      EQWLTHY            Govt reduce income differences-Version Y            6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  October 14, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 1
+
+
+      OCC10              R's census occupation code (2010)
+
+           Occupation and industry questions asked and not directly coded
+           but used to code OCC and IND variables.
+
+           Data type: numeric
+           Missing-data codes: 0,9998,9999
+           Record/columns: 1/1-4
+
+      ________________________________________________________________________
+
+      CASEID             YEAR + Respondent ID
+
+           Data type: character
+           Record/columns: 1/7-14
+
+      ________________________________________________________________________
+
+      YEAR               GSS year for this respondent
+
+           Data type: numeric
+           Record/columns: 1/17-20
+
+      ________________________________________________________________________
+
+      ID                 Respondent ID number
+
+           Data type: numeric
+           Record/columns: 1/22-25
+
+      ________________________________________________________________________
+
+      NATHEAL            Improving & protecting nations health
+
+           68. We are faced with many problems in this country, none of
+           which can be solved easily or inexpensively. I'm going to name
+           some of these problems, and for each one I'd like you to tell me
+           whether you think we're spending too much money on it, too
+           little money, or about the right amount. c. Improving and
+           protecting the nation's health.
+
+           VALUE  LABEL
+               0  IAP
+               1  TOO LITTLE
+               2  ABOUT RIGHT
+               3  TOO MUCH
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/27
+
+
+
+                                  October 14, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 2
+
+
+      NATFARE            Welfare
+
+           68. We are faced with many problems in this country, none of
+           which can be solved easily or inexpensively. I'm going to name
+           some of these problems, and for each one I'd like you to tell me
+           whether you think we're spending too much money on it, too
+           little money, or about the right amount. k. Welfare.
+
+           VALUE  LABEL
+               0  IAP
+               1  TOO LITTLE
+               2  ABOUT RIGHT
+               3  TOO MUCH
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/29
+
+      ________________________________________________________________________
+
+      NATSOC             Social security
+
+           68. We are faced with many problems in this country, none of
+           which can be solved easily or inexpensively. I'm going to name
+           some of these problems, and for each one I'd like you to tell me
+           whether you think we're spending too much money on it, too
+           little money, or about the right amount. m. Social Security.
+
+           VALUE  LABEL
+               0  IAP
+               1  TOO LITTLE
+               2  ABOUT RIGHT
+               3  TOO MUCH
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/31
+
+
+
+
+
+
+
+
+
+
+
+                                  October 14, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 3
+
+
+      NATHEALY           Health:Version Y
+
+           69. We are faced with many problems in this country, none of
+           which can be solved easily or inexpensively. I'm going to name
+           some of these problems, and for each one I'd like you to tell me
+           whether you think we're spending too much money on it, too
+           little money, or about the right amount. c. Health
+
+           VALUE  LABEL
+               0  IAP
+               1  TOO LITTLE
+               2  ABOUT RIGHT
+               3  TOO MUCH
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/33
+
+      ________________________________________________________________________
+
+      NATFAREY           Assistance to the poor:Version Y
+
+           69. We are faced with many problems in this country, none of
+           which can be solved easily or inexpensively. I'm going to name
+           some of these problems, and for each one I'd like you to tell me
+           whether you think we're spending too much money on it, too
+           little money, or about the right amount. k. Assistance to the
+           poor.
+
+           VALUE  LABEL
+               0  IAP
+               1  TOO LITTLE
+               2  ABOUT RIGHT
+               3  TOO MUCH
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/35
+
+
+
+
+
+
+
+
+
+
+                                  October 14, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 4
+
+
+      NATHEALZ           Improving health:Version Z
+
+           70. We are faced with many problems in this country, none of
+           which can be solved easily or inexpensively. I'm going to name
+           some of these problems, and for each one I'd like you to tell me
+           whether you think we're spending too much money on it, too
+           little money, or about the right amount. c. Improving and
+           protecting the nation's health.
+
+           VALUE  LABEL
+               0  IAP
+               1  TOO LITTLE
+               2  ABOUT RIGHT
+               3  TOO MUCH
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/37
+
+      ________________________________________________________________________
+
+      NATFAREZ           Caring for the poor:Version Z
+
+           70. We are faced with many problems in this country, none of
+           which can be solved easily or inexpensively. I'm going to name
+           some of these problems, and for each one I'd like you to tell me
+           whether you think we're spending too much money on it, too
+           little money, or about the right amount. k. Caring for the poor.
+
+           VALUE  LABEL
+               0  IAP
+               1  TOO LITTLE
+               2  ABOUT RIGHT
+               3  TOO MUCH
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/39
+
+
+
+
+
+
+
+
+
+
+                                  October 14, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 5
+
+
+      NATSOCZ            Protecting social security:Version Z
+
+           70. We are faced with many problems in this country, none of
+           which can be solved easily or inexpensively. I'm going to name
+           some of these problems, and for each one I'd like you to tell me
+           whether you think we're spending too much money on it, too
+           little money, or about the right amount. m. Protecting Social
+           Security.
+
+           VALUE  LABEL
+               0  IAP
+               1  TOO LITTLE
+               2  ABOUT RIGHT
+               3  TOO MUCH
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/41
+
+      ________________________________________________________________________
+
+      EQWLTH             Should govt reduce income differences
+
+           74a. Some people think that the government in Washington ought
+           to reduce the income differences between the rich and the poor,
+           perhaps by raising the taxes of wealthy families or by giving
+           income assistance to the poor. Others think that the government
+           should not concern itself with reducing this income difference
+           between the rich and the poor. Here is a card with a scale from
+           1 to 7. Think of a score of 1 as meaning that the government
+           ought to reduce the income differences between rich and poor,
+           and a score of 7 meaning that the government should not concern
+           itself with reducing income differences. What score between 1
+           and 7 comes closest to the way you feel?
+
+           VALUE  LABEL
+               0  IAP
+               1  GOVT REDUCE DIFF
+               7  NO GOVT ACTION
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/43
+
+
+
+
+
+                                  October 14, 2020
+
+
+
+      General Social Survey 1972-2018 Cumulative Datafile               Page 6
+
+
+      EQWLTHY            Govt reduce income differences-Version Y
+
+           74b. Some people think that the income differences between the
+           rich and the poor ought to be reduced, perhaps by raising the
+           taxes of wealthy families or by giving income assistance to the
+           poor. Others think that the government should not concern itself
+           with reducing this income difference between the rich and the
+           poor. Here is a card with a scale from 1 to 7. Think of a score
+           of 1 as meaning that the government ought to reduce the income
+           differences between rich and poor, and a score of 7 meaning that
+           the government should not concern itself with reducing income
+           differences. What score between 1 and 7 comes closest to the way
+           you feel?
+
+           VALUE  LABEL
+               0  IAP
+               1  GOVT REDUCE DIFF
+               7  NO GOVT ACTION
+               8  DK
+               9  NA
+
+           Data type: numeric
+           Missing-data codes: 0,8,9
+           Record/column: 1/45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  October 14, 2020
