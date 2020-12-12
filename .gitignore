@@ -18,3 +18,4 @@
 *.json
 .vscode
 .cache-jwhandley
+.Rdata
