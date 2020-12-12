@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /Spotify Web App/
 /rate_my_spotify
 *.dta
@@ -22,4 +23,30 @@
 *.RdataTmp
 .Rdata
 .RdataTmp
+=======
+/Spotify Web App/
+/rate_my_spotify
+*.dta
+*.csv
+*.sav
+*.zip
+*.gz
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.dat
+*.dct
+*.xls
+*.xml
+*.pdf
+*.json
+.vscode
+.cache-jwhandley
+*.Rdata
+*.RdataTmp
+.Rdata
+.RdataTmp
+>>>>>>> d3bccad73ce6ed413fb55438a13ce6563e8a21ac
 *.sas7bdat
