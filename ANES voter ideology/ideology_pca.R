@@ -2,6 +2,7 @@ library(tidyverse)
 library(Hmisc)
 library(lme4)
 library(scales)
+library(brms)
 
 df <- read_csv('anes_extract.csv')
 
@@ -34,7 +35,8 @@ summary(res.econ)
 res.social <- lmer(social ~ (1|faminc) + (1|educ) + (1|faminc:educ) + (1|faminc:year) + (1|educ:year),data)
 summary(res.social)
 
-res.vote.demog <- glmer(pres2p ~ (1|faminc) + (1|educ) + (1|faminc:educ) + (1|faminc:year) + (1|educ:year),data,family=binomial)
+res.vote.demog <- glmer(pres2p ~ (1|faminc) + (1|faminc:educ) + (1|faminc:year) + (1|educ:year),data,family=binomial)
+summary(res.vote.demog)
 
 output <- expand_grid(educ = unique(data$educ),
                       faminc = unique(data$faminc),
@@ -104,3 +106,6 @@ output.vote %>%
        color='Social liberal-conservative',
        title='Predicted Two-Party Presidential Vote by Economic and Social Values') +
   ggsave('econsocvote.png',width=8,height=5,type='cairo')
+
+res.vote.values <- brm(pres2p ~ (econ+social|educ:year) + (econ+social|faminc:year) + (econ+social|year),data,family=bernoulli,cores=4,chains=4)
+summary(res.vote.values)
