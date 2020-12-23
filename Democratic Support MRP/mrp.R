@@ -1,7 +1,6 @@
 library(tidyverse)
 library(Hmisc)
 library(haven)
-library(brms)
 library(lme4)
 
 df <- read_dta('marist_feb.dta')
@@ -10,10 +9,8 @@ census <- read_dta('usa_00068.dta')
 context <- read_csv('contextual_data.csv')
 
 turnout %>%
-  filter(faminc < 995,age>=18,voted<96,educ<999) %>%
-  mutate(income = case_when(faminc <= 740 ~ 'Less than $50,000',
-                            faminc >= 800 ~ '$50,000 or more'),
-         educ = as.numeric(educ>100),
+  filter(age>=18,educ<999) %>%
+  mutate(educ = as.numeric(educ>100),
          race = case_when(race == 100 & hispan == 0 ~ 'White',
                           race == 200 & hispan == 0 ~ 'African-American',
                           hispan != 0 ~ 'Hispanic',
@@ -24,10 +21,9 @@ turnout %>%
                                age >= 60 ~ '60 or older'),
          gender = as.numeric(sex==2),
          vote = as.numeric(voted == 2)) %>%
-  mutate(income = factor(income,levels=c('Less than $50,000','$50,000 or more')),
-         race = factor(race,levels=c('White','African-American','Hispanic','Asian-Other')),
+  mutate(race = factor(race,levels=c('White','African-American','Hispanic','Asian-Other')),
          age = factor(age,levels=c('18 to 29','30 to 44','45 to 59','60 or older'))) %>%
-  select(statefip,income,race,educ,age,gender,vote) %>%
+  select(statefip,race,educ,age,gender,vote) %>%
   inner_join(context) -> turnout
 
 census %>%
@@ -46,7 +42,7 @@ census %>%
   mutate(income = factor(income,levels=c('Less than $50,000','$50,000 or more')),
          race = factor(race,levels=c('White','African-American','Hispanic','Asian-Other')),
          age = factor(age,levels=c('18 to 29','30 to 44','45 to 59','60 or older'))) %>%
-  group_by(statefip,gender,race,educ,income,age) %>%
+  group_by(statefip,gender,race,educ,age) %>%
   summarise(n = sum(perwt)) %>%
   inner_join(context) -> pstrat
 
@@ -64,17 +60,17 @@ df %>%
   select(sanders,biden,educ,income,race,gender,age,statefip,wtfactor,rv) %>%
   inner_join(context) -> data
 
-res.turnout <- brm(vote ~ (1|educ) + (1|race) + (1|gender) + (1|income) + (1|educ:race) + (1|educ:gender) + (1|race:gender) + (1|state) + (1|race:state) + vap2012,turnout,family=bernoulli(),chains=4,cores=6)
+res.turnout <- glmer(vote ~ (1|age) + (1|educ) + (1|race) + (1|gender) + (1|educ:race) + (1|educ:age) + (1|state) + (1|race:state) + vap2012,turnout,family=binomial)
 summary(res.turnout)
-#pstrat$turnout <- predict(res.turnout,pstrat,type='response',allow.new.levels=T)
+pstrat$turnout <- predict(res.turnout,pstrat,type='response',allow.new.levels=T)
 
-res.sanders <- brm(sanders ~ (1|educ) + (1|race) + (1|gender) + (1|income) + (1|educ:race) + (1|educ:gender) + (1|race:gender) + (1|state) + (1|race:state) + median_hh_income + black + hispanic + evangelical + obama,data,family=bernoulli())
+res.sanders <- glmer(sanders ~ (1|age) + (1|educ) + (1|race) + (1|gender) + (1|educ:race) + (1|educ:age) + (1|state) + (1|race:state) + black + hispanic + evangelical + obama,data,family=binomial)
 summary(res.sanders)
-#pstrat$sanders <- predict(res.sanders,pstrat,type='response',allow.new.levels=T)
+pstrat$sanders <- predict(res.sanders,pstrat,type='response',allow.new.levels=T)
 
-res.biden <- brm(biden ~ (1|educ) + (1|race) + (1|gender) + (1|income) + (1|educ:race) + (1|educ:gender) + (1|race:gender) + (1|state) + (1|race:state) + median_hh_income + black + hispanic + evangelical + obama,data,family=binomial)
+res.biden <- glmer(biden ~ (1|age) + (1|educ) + (1|race) + (1|gender) + (1|educ:race) + (1|educ:age) + (1|state) + (1|race:state) + black + hispanic + evangelical + obama,data,family=binomial)
 summary(res.biden)
-#pstrat$biden <- predict(res.biden,pstrat,type='response',allow.new.levels=T)
+pstrat$biden <- predict(res.biden,pstrat,type='response',allow.new.levels=T)
 
 
 pstrat %>%

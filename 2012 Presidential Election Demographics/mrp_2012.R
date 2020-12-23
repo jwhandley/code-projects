@@ -2,15 +2,15 @@ library(tidyverse)
 library(haven)
 library(Hmisc)
 library(lme4)
+library(brms)
 library(maps)
 library(mapproj)
 library(scales)
 library(cowplot)
 
 context <- read_csv('context.csv')
-
 indiv <- read_spss('usmi2012-natelec.por') %>%
-  mutate(state = as_factor(STANUM)) %>%
+  mutate(state = str_trim(as_factor(STANUM))) %>%
   inner_join(context) %>%
   mutate(race = as_factor(RACE),
          educ = as_factor(EDUC10),
@@ -20,10 +20,12 @@ indiv <- read_spss('usmi2012-natelec.por') %>%
                             INCOME12 == 2 ~ '$30,000 - $49,999',
                             INCOME12 == 3 ~ '$50,000 - $99,999',
                             INCOME12 >= 4 ~ '$100,000 or more'),
+         obama.vote = as.numeric(PRES==1),
+         romney.vote = as.numeric(PRES==2),
          vote = ifelse(PRES %in% c(1,2),as.numeric(PRES==1),NA_real_),
          weight = WEIGHT) %>%
   mutate(income = factor(income,levels=c('Under $30,000','$30,000 - $49,999','$50,000 - $99,999','$100,000 or more'))) %>%
-  select(weight,vote,age,sex,educ,race,income,state,dem12,vap12,degree,median_hh_income,white,black,hispanic,asian,evangelical,region)
+  select(weight,vote,obama.vote,romney.vote,age,sex,educ,race,income,state,dem12,obama,romney,vap12,degree,median_hh_income,white,black,hispanic,asian,evangelical,region)
 
 
 turnout <- read_dta('cps_00188.dta') %>%
@@ -85,37 +87,27 @@ census <- read_dta('usa_00076.dta') %>%
          race = factor(race,levels=levels(indiv$race)),
          educ = factor(educ,levels=levels(indiv$educ)),
          income = factor(income,levels=levels(indiv$income))) %>%
-  group_by(state,age,sex,race,educ,income) %>%
+  group_by(state,age,sex,race,income,educ) %>%
   summarise(n = sum(perwt)) %>%
   inner_join(context)
 
-res.vote <- glmer(vote ~ black + hispanic + evangelical + dem12 + (1|age) + (1|sex) + (1|income) + (1|state) + (1|race:educ) + (1|race:state) + (1|race:educ:state),indiv,family=binomial)
+gc()
+
+res.vote <- brm(vote ~ dem12 + black + hispanic + evangelical + degree + (1|sex) + (1|age) + (1|race) + (1|educ) + (1|income) + (1|state) + (1|region) + (1|race:educ) + (1|race:income) + (1|sex:age) + (1|age:educ) + (1|race:sex) + (1|race:region) + (1|sex:educ) + (1|income:region),indiv,family=bernoulli,cores=12,chains=4)
 summary(res.vote)
-census$vote <- predict(res.vote,census,allow.new.levels=T,type='response')
+#census$vote <- predict(res.vote,census,allow.new.levels=T,type='response')
 
-res.turnout <- glmer(voted ~ black + hispanic + evangelical + vap12 + (1|age) + (1|sex) + (1|educ) + (1|income) + (1|race:educ) + (1|race:state) + (1|race:educ:state),turnout,family=binomial)
+
+res.turnout <- glmer(voted ~ vap12 + black + hispanic + evangelical + (1|sex) + (1|age) + (1|race) + (1|educ) + (1|income) + (1|state) + (1|race:educ) + (1|race:income) + (1|age:educ) + (1|race:sex) + (1|race:region),turnout,family=binomial)
 summary(res.turnout)
-census$turnout <- predict(res.turnout,census,allow.new.levels=T,type='response')
+#census$turnout <- predict(res.turnout,census,allow.new.levels=T,type='response')
+
+save.image(file='full_models.RData')
 
 census %>%
+  mutate(n_votes = turnout*n) %>%
   group_by(state) %>%
-  summarise(ratio = mean(vap12)/wtd.mean(turnout,n)) -> turnout.ratio
-
-census %>%
-  inner_join(turnout.ratio) %>%
-  mutate(n_votes = n*turnout*ratio) %>%
-  group_by(state) %>%
-  summarise(vote = wtd.mean(vote,n_votes,na.rm=T),
-            vote.actual = mean(dem12),
-            turnout = wtd.mean(turnout*ratio,n,na.rm=T),
-            turnout.actual = mean(vap12)) %>%
+  summarise(vote = wtd.mean(vote,n_votes),
+            tunrout = wtd.mean(turnout,n)) %>%
+  inner_join(select(context,state,dem12,vap12)) %>%
   write_csv('state_mrp_results.csv')
-
-census %>%
-  mutate(n_votes = n*turnout) %>%
-  group_by(state,race,educ) %>%
-  summarise(vote = wtd.mean(vote,n_votes,na.rm=T),
-            turnout = wtd.mean(turnout,n,na.rm=T)) -> race.educ
-
-plot_usmap(data=filter(race.educ,race=='White',educ=='Some college/assoc. degree'),values='vote') +
-  scale_fill_gradient(name='Obama two-party vote share',low='red',high='blue')
